@@ -248,58 +248,61 @@ class OSINTCrawler:
         return results
 
     def search_wikipedia(self, query: str) -> List[Dict[str, Any]]:
-        """Queries Wikipedia REST API for canonical full name, bio summary, thumbnail avatar, and page URL."""
+        """Queries Wikipedia REST API using opensearch auto-correct and title validation for reputed entity records."""
         results = []
         clean_q = query.strip().replace("@", "")
+        if not clean_q or len(clean_q) < 2:
+            return results
+
         headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
 
         try:
-            # 1. Direct title query
-            title_q = clean_q.replace(" ", "_")
-            url = f"https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts|pageimages|info&inprop=url&exintro=1&explaintext=1&piprop=original|thumbnail&pithumbsize=500&titles={title_q}"
+            # 1. Use OpenSearch API for auto-correction (e.g. virat kholi -> Virat Kohli)
+            opensearch_url = f"https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search={requests.utils.quote(clean_q)}"
+            o_resp = requests.get(opensearch_url, headers=headers, timeout=4)
+            canonical_title = clean_q
+            if o_resp.status_code == 200:
+                o_data = o_resp.json()
+                titles = o_data[1] if isinstance(o_data, list) and len(o_data) > 1 else []
+                if titles and len(titles) > 0:
+                    q_words = set(re.findall(r'\w+', clean_q.lower()))
+                    for t in titles:
+                        t_words = set(re.findall(r'\w+', t.lower()))
+                        if q_words.intersection(t_words) or fuzz.token_set_ratio(clean_q.lower(), t.lower()) >= 50.0:
+                            canonical_title = t
+                            break
+
+            # 2. Fetch full article details for the canonical title
+            url = f"https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts|pageimages|info&inprop=url&exintro=1&explaintext=1&piprop=original|thumbnail&pithumbsize=500&titles={requests.utils.quote(canonical_title)}"
             resp = requests.get(url, headers=headers, timeout=4)
             if resp.status_code == 200:
                 data = resp.json()
                 pages = data.get("query", {}).get("pages", {})
                 for page_id, p_info in pages.items():
                     if page_id != "-1" and p_info.get("extract"):
-                        thumb = p_info.get("thumbnail", {}).get("source") or p_info.get("original", {}).get("source")
-                        results.append({
-                            "platform": "Wikipedia",
-                            "username": clean_q,
-                            "canonical_name": p_info.get("title"),
-                            "bio": p_info.get("extract")[:400],
-                            "avatar_url": thumb,
-                            "profile_url": p_info.get("fullurl") or f"https://en.wikipedia.org/wiki/{title_q}",
-                            "institution": "Public Figure / Entity",
-                            "roles": ["Verified Entity Record"]
-                        })
-                        return results
+                        p_title = p_info.get("title", canonical_title)
+                        
+                        # Validate that the page title is relevant to query
+                        match_score = fuzz.token_set_ratio(clean_q.lower(), p_title.lower())
+                        q_words = set(re.findall(r'\w+', clean_q.lower()))
+                        p_words = set(re.findall(r'\w+', p_title.lower()))
+                        
+                        if match_score >= 50.0 or len(q_words.intersection(p_words)) > 0:
+                            thumb = p_info.get("thumbnail", {}).get("source") or p_info.get("original", {}).get("source")
+                            results.append({
+                                "platform": "Wikipedia",
+                                "username": clean_q,
+                                "canonical_name": p_title,
+                                "bio": p_info.get("extract")[:500],
+                                "avatar_url": thumb,
+                                "profile_url": p_info.get("fullurl") or f"https://en.wikipedia.org/wiki/{p_title.replace(' ', '_')}",
+                                "institution": "Public Figure / Entity",
+                                "roles": ["Verified Entity Record"]
+                            })
+                            return results
         except Exception as e:
-            print(f"Wikipedia Direct Recon Warning: {e}")
+            print(f"Wikipedia Recon Warning: {e}")
 
-        # 2. Search query fallback
-        try:
-            url = f"https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts|pageimages|info&inprop=url&exintro=1&explaintext=1&piprop=original|thumbnail&pithumbsize=500&generator=search&gsrsearch={clean_q}"
-            resp = requests.get(url, headers=headers, timeout=5)
-            if resp.status_code == 200:
-                data = resp.json()
-                pages = data.get("query", {}).get("pages", {})
-                for page_id, p_info in pages.items():
-                    if p_info.get("extract"):
-                        thumb = p_info.get("thumbnail", {}).get("source") or p_info.get("original", {}).get("source")
-                        results.append({
-                            "platform": "Wikipedia",
-                            "username": clean_q,
-                            "canonical_name": p_info.get("title"),
-                            "bio": p_info.get("extract")[:400],
-                            "avatar_url": thumb,
-                            "profile_url": p_info.get("fullurl") or f"https://en.wikipedia.org/wiki/{p_info.get('title', '').replace(' ', '_')}",
-                            "institution": "Public Entity Record",
-                            "roles": ["Verified Wikipedia Profile"]
-                        })
-        except Exception as e:
-            print(f"Wikipedia Search Recon Warning: {e}")
         return results
 
     def search_duckduckgo_open_web(self, query: str) -> List[Dict[str, Any]]:
