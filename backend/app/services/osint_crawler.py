@@ -450,23 +450,57 @@ class OSINTCrawler:
         return results
 
     def probe_social_handles(self, handle: str) -> List[Dict[str, Any]]:
-        """Probes public profile endpoints exclusively for LinkedIn accounts."""
+        """Probes public profile endpoints across all major social networks (LinkedIn, GitHub, X, Instagram, Medium, Dev.to)."""
         discovered = []
         std_headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
         
         handle_variants = self.generate_handle_variants(handle)
         seen_urls = set()
 
-        for h_var in handle_variants[:5]:
-            link = f"https://www.linkedin.com/in/{h_var}"
-            if link not in seen_urls:
-                seen_urls.add(link)
-                discovered.append({
-                    "platform": "LinkedIn",
-                    "username": h_var,
-                    "url": link,
-                    "status": "Verified Active Profile"
-                })
+        platforms = [
+            ("LinkedIn", "https://www.linkedin.com/in/{}"),
+            ("GitHub", "https://github.com/{}"),
+            ("X (Twitter)", "https://x.com/{}"),
+            ("Instagram", "https://www.instagram.com/{}/"),
+            ("Medium", "https://medium.com/@{}"),
+            ("Dev.to", "https://dev.to/{}")
+        ]
+
+        def check_url(platform: str, h_var: str, url_template: str):
+            link = url_template.format(h_var)
+            try:
+                resp = requests.get(link, headers=std_headers, timeout=1.5, allow_redirects=True)
+                if resp.status_code in [200, 999]:
+                    # Filter out generic 200 soft error pages for Instagram/X if redirect
+                    if "login" in resp.url.lower() or "404" in resp.url:
+                        return None
+                    return {
+                        "platform": platform,
+                        "username": h_var,
+                        "url": link,
+                        "status": "Verified Active Profile"
+                    }
+            except Exception:
+                pass
+            return None
+
+        probe_tasks = []
+        for p_name, p_url_template in platforms:
+            for h_var in handle_variants[:3]:
+                link = p_url_template.format(h_var)
+                if link not in seen_urls:
+                    seen_urls.add(link)
+                    probe_tasks.append((p_name, h_var, p_url_template))
+
+        with ThreadPoolExecutor(max_workers=8) as executor:
+            futures = [executor.submit(check_url, *task) for task in probe_tasks]
+            for f in futures:
+                try:
+                    r = f.result()
+                    if r:
+                        discovered.append(r)
+                except Exception:
+                    pass
 
         return discovered
 
@@ -606,36 +640,56 @@ class OSINTCrawler:
             # If local dataset candidate pre-check yields no match, fallback to real-time live API recon
             pass
 
-        # 2. Execute Real-Time Live API Reconnaissance for LinkedIn & Wikipedia Public Records
-        with ThreadPoolExecutor(max_workers=4) as executor:
+        # 2. Execute Real-Time Live API Reconnaissance across ALL Social Networks & Web APIs
+        with ThreadPoolExecutor(max_workers=5) as executor:
             f_linkedin = executor.submit(self.search_linkedin, clean_query, clean_context)
+            f_google = executor.submit(self.search_google_custom, clean_query, clean_context)
+            f_github = executor.submit(self.search_github, clean_query)
             f_probes = executor.submit(self.probe_social_handles, clean_query)
             f_wiki = executor.submit(self.search_wikipedia, clean_query)
 
             linkedin_profiles = f_linkedin.result()
+            google_profiles = f_google.result()
+            github_profiles = f_github.result()
             probed_handles = f_probes.result()
             wiki_profiles = f_wiki.result()
 
-        # Keep LinkedIn and Wikipedia profiles
-        live_web_sources = [p for p in linkedin_profiles if p.get("platform") == "LinkedIn" or "linkedin.com" in p.get("profile_url", "")]
-        
+        # Combine all discovered profiles across platforms (LinkedIn, GitHub, X, Wikipedia, Google Scholar, Instagram, Medium)
+        live_web_sources = []
+        seen_profile_urls = set()
+
+        for p in linkedin_profiles:
+            if p.get("profile_url") not in seen_profile_urls:
+                seen_profile_urls.add(p["profile_url"])
+                live_web_sources.append(p)
+
+        for p in google_profiles:
+            if p.get("profile_url") not in seen_profile_urls:
+                seen_profile_urls.add(p["profile_url"])
+                live_web_sources.append(p)
+
+        for p in github_profiles:
+            if p.get("profile_url") not in seen_profile_urls:
+                seen_profile_urls.add(p["profile_url"])
+                live_web_sources.append(p)
+
         # Incorporate Wikipedia record if reputed entity found
         wiki_entry = wiki_profiles[0] if wiki_profiles else None
 
-        # Fallback to direct handle probe or Wikipedia if no Google Search API match found
+        # Fallback to direct handle probes or Wikipedia if no Google Search API match found
         if not live_web_sources:
             if wiki_entry:
                 live_web_sources.append(wiki_entry)
             elif probed_handles:
                 for ph in probed_handles:
                     live_web_sources.append({
-                        "platform": "LinkedIn",
+                        "platform": ph["platform"],
                         "username": ph["username"],
-                        "canonical_name": clean_query.title() if clean_query else "LinkedIn User",
-                        "bio": f"LinkedIn professional profile for {clean_query} (@{ph['username']})",
+                        "canonical_name": clean_query.title() if clean_query else "Discovered Profile",
+                        "bio": f"{ph['platform']} profile for {clean_query} (@{ph['username']})",
                         "avatar_url": None,
                         "profile_url": ph["url"],
-                        "institution": "LinkedIn Professional Network"
+                        "institution": f"{ph['platform']} Network"
                     })
 
         resolved_candidates = []
