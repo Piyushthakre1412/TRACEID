@@ -133,36 +133,7 @@ export default function ProfileSummary({ identity }) {
         </div>
       </div>
 
-      {/* 3. Verified Same / Mutual Contacts Count Section */}
-      <div className="bg-slate-950 p-3.5 rounded-xl border border-slate-800 space-y-2.5 shadow-md">
-        <div className="flex items-center justify-between border-b border-slate-800 pb-2">
-          <span className="text-xs font-bold text-slate-200 flex items-center gap-1.5">
-            <UserCheck className="w-3.5 h-3.5 text-emerald-400" />
-            Same / Mutual Contacts
-          </span>
-          <span className="text-[9px] bg-purple-950/80 text-purple-300 border border-purple-800/60 font-mono font-semibold px-2 py-0.5 rounded-full">
-            GRAPH OVERLAP
-          </span>
-        </div>
-
-        <div className="bg-slate-900/80 p-3 rounded-lg border border-slate-800/80 flex items-center justify-between">
-          <div className="space-y-0.5">
-            <div className="text-xs font-semibold text-slate-300">
-              Same / Common Network Contacts
-            </div>
-            <div className="text-[10px] text-slate-400">
-              Verified cross-platform mutual contacts count
-            </div>
-          </div>
-          <div className="flex items-center gap-1.5 bg-indigo-950/80 text-indigo-300 border border-indigo-500/40 px-3 py-1.5 rounded-lg">
-            <Users className="w-4 h-4 text-indigo-400" />
-            <span className="text-sm font-extrabold text-white">{mutualsList.length}</span>
-            <span className="text-[10px] text-indigo-300 font-semibold">Same</span>
-          </div>
-        </div>
-      </div>
-
-      {/* 4. Confidence Progress Meter */}
+      {/* 3. Confidence Progress Meter */}
       <div className="bg-slate-950 p-3.5 rounded-xl border border-slate-800 space-y-2 shadow-md">
         <div className="flex justify-between items-center text-xs">
           <span className="text-slate-400 font-semibold flex items-center gap-1.5">
@@ -179,23 +150,23 @@ export default function ProfileSummary({ identity }) {
         </div>
       </div>
 
-      {/* 5. Multi-Modal Score Breakdown */}
+      {/* 4. Multi-Modal Score Breakdown */}
       <div className="space-y-2">
         <h5 className="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Multi-Modal Feature Breakdown</h5>
 
         <div className="bg-slate-950 p-2.5 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
-          <span className="text-slate-300 font-medium">MiniLM Bio Semantic Sim (50%)</span>
+          <span className="text-slate-300 font-medium">ArcFace DeepFace Visual Match (40%)</span>
+          <span className="font-extrabold text-emerald-400">{confidence_breakdown?.facial_similarity || 88.0}%</span>
+        </div>
+
+        <div className="bg-slate-950 p-2.5 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
+          <span className="text-slate-300 font-medium">MiniLM Bio Semantic Sim (35%)</span>
           <span className="font-extrabold text-purple-400">{confidence_breakdown?.bio_semantic_similarity || 94.2}%</span>
         </div>
 
         <div className="bg-slate-950 p-2.5 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
-          <span className="text-slate-300 font-medium">RapidFuzz Handle Match (30%)</span>
+          <span className="text-slate-300 font-medium">RapidFuzz Handle Match (25%)</span>
           <span className="font-extrabold text-sky-400">{confidence_breakdown?.handle_match || 100.0}%</span>
-        </div>
-
-        <div className="bg-slate-950 p-2.5 rounded-xl border border-slate-800 flex justify-between items-center text-xs">
-          <span className="text-slate-300 font-medium">Mutual Network Overlap (20%)</span>
-          <span className="font-extrabold text-emerald-400">{confidence_breakdown?.mutual_network_overlap || 95.0}%</span>
         </div>
       </div>
     </div>
