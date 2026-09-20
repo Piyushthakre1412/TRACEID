@@ -692,19 +692,12 @@ class OSINTCrawler:
                 handle_sim = bio_sim
 
             # Combine all real existing account URLs discovered across probed social media sites & Wikipedia
-            seen_urls = {profile_url}
-            discovered_handles = [{"platform": platform_name, "username": username, "url": profile_url}]
-            evidence_items = [
-                {
-                    "node_id": f"H_LIVE_{platform_name.replace(' ', '_')}_{username}",
-                    "source_url": profile_url,
-                    "verified_at": "2026-09-19",
-                    "proof_type": f"Live {platform_name} REST API Verified Match"
-                }
-            ]
+            # For reputed personas with a Wikipedia entry, place Wikipedia FIRST at top priority!
+            seen_urls = set()
+            discovered_handles = []
+            evidence_items = []
 
-            # Add Wikipedia handle & evidence proof if reputed persona record exists
-            if wiki_entry and wiki_entry.get("profile_url") not in seen_urls:
+            if wiki_entry and wiki_entry.get("profile_url"):
                 seen_urls.add(wiki_entry["profile_url"])
                 discovered_handles.append({
                     "platform": "Wikipedia",
@@ -716,6 +709,20 @@ class OSINTCrawler:
                     "source_url": wiki_entry["profile_url"],
                     "verified_at": "2026-09-19",
                     "proof_type": "Verified Wikipedia Entity Directory Record"
+                })
+
+            if profile_url not in seen_urls:
+                seen_urls.add(profile_url)
+                discovered_handles.append({
+                    "platform": platform_name,
+                    "username": username,
+                    "url": profile_url
+                })
+                evidence_items.append({
+                    "node_id": f"H_LIVE_{platform_name.replace(' ', '_')}_{username}",
+                    "source_url": profile_url,
+                    "verified_at": "2026-09-19",
+                    "proof_type": f"Live {platform_name} REST API Verified Match"
                 })
 
             for ph in probed_handles:
@@ -745,7 +752,9 @@ class OSINTCrawler:
 
             # Preserve target full name or scraped canonical name
             target_canonical = clean_query.title() if clean_query else "Discovered Target Identity"
-            if canonical_name and clean_query:
+            if wiki_entry and wiki_entry.get("canonical_name"):
+                target_canonical = wiki_entry["canonical_name"]
+            elif canonical_name and clean_query:
                 q_parts = clean_query.lower().split()
                 if any(p in canonical_name.lower() for p in q_parts) or text_engine.get_handle_match_score(canonical_name, clean_query) >= 40.0:
                     target_canonical = canonical_name
@@ -756,26 +765,34 @@ class OSINTCrawler:
 
             roles_list = ["Verified Public Profile"]
             if wiki_entry:
-                roles_list.append("Wikipedia Verified Public Figure")
+                roles_list.insert(0, "Wikipedia Verified Public Figure")
 
-            timeline_events = [
-                {"year": "2026", "event": f"Discovered Live Profile on {platform_name} & {len(discovered_handles)} social platforms", "category": "recon"}
-            ]
+            timeline_events = []
             if wiki_entry:
                 timeline_events.append({
                     "year": "2026",
-                    "event": f"Wikipedia Record Verified: {wiki_entry.get('bio', '')[:120]}...",
+                    "event": f"Verified Wikipedia Entity Record: {wiki_entry.get('bio', '')[:140]}...",
                     "category": "milestone"
                 })
+            timeline_events.append({
+                "year": "2026",
+                "event": f"Discovered Live Profile on {platform_name} & {len(discovered_handles)} verified sources",
+                "category": "recon"
+            })
+
+            bios_list = []
+            if wiki_entry and wiki_entry.get("bio"):
+                bios_list.append(f"[Wikipedia Verified Entity Record]: {wiki_entry['bio']}")
+            bios_list.append(bio_text)
 
             candidate_obj = {
                 "person_id": person_id,
                 "canonical_name": target_canonical,
-                "primary_image": avatar_url or (wiki_entry.get("avatar_url") if wiki_entry else "/dataset/images/piyush.jpg"),
+                "primary_image": (wiki_entry.get("avatar_url") if wiki_entry and wiki_entry.get("avatar_url") else avatar_url) or "/dataset/images/piyush.jpg",
                 "institution": wiki_entry.get("institution") if wiki_entry else institution,
                 "roles": roles_list,
                 "handles": discovered_handles,
-                "bios": [bio_text],
+                "bios": bios_list,
                 "projects": [f"{(clean_query or 'target').lower().replace(' ', '-')}-repos", "Verified Digital Identity"],
                 "timeline": timeline_events,
                 "evidence_trail": evidence_items

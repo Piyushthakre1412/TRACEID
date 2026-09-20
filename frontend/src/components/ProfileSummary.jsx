@@ -78,20 +78,29 @@ export default function ProfileSummary({ identity }) {
         {/* Username Handles Pill List */}
         {handles && handles.length > 0 && (
           <div className="flex flex-wrap gap-1.5 pt-1">
-            {handles.map((h, i) => (
-              <a
-                key={i}
-                href={h.url || '#'}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-1 text-[10px] bg-slate-900 hover:bg-indigo-950 text-slate-300 hover:text-indigo-200 border border-slate-800 hover:border-indigo-500/40 px-2 py-1 rounded-md transition-all"
-              >
-                <Globe className="w-3 h-3 text-indigo-400" />
-                <span className="font-semibold">{h.platform}:</span>
-                <span className="text-slate-400">@{h.username}</span>
-                <ExternalLink className="w-2.5 h-2.5 text-slate-500" />
-              </a>
-            ))}
+            {handles.map((h, i) => {
+              const isWiki = h.platform === 'Wikipedia';
+              return (
+                <a
+                  key={i}
+                  href={h.url || '#'}
+                  target="_blank"
+                  rel="noreferrer"
+                  className={`inline-flex items-center gap-1 text-[10px] px-2.5 py-1 rounded-md font-bold transition-all shadow-sm ${
+                    isWiki
+                      ? 'bg-gradient-to-r from-purple-950 to-indigo-950 text-purple-200 border border-purple-500/60 hover:border-purple-400 ring-1 ring-purple-500/30'
+                      : 'bg-slate-900 hover:bg-indigo-950 text-slate-300 hover:text-indigo-200 border border-slate-800 hover:border-indigo-500/40'
+                  }`}
+                >
+                  <Globe className={`w-3 h-3 ${isWiki ? 'text-purple-400' : 'text-indigo-400'}`} />
+                  <span>{h.platform}:</span>
+                  <span className={isWiki ? 'text-purple-200 font-extrabold' : 'text-slate-400'}>
+                    @{h.username}
+                  </span>
+                  <ExternalLink className="w-2.5 h-2.5 text-slate-400" />
+                </a>
+              );
+            })}
           </div>
         )}
       </div>
