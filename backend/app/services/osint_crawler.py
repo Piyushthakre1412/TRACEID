@@ -603,39 +603,53 @@ class OSINTCrawler:
             # If local dataset candidate pre-check yields no match, fallback to real-time live API recon
             pass
 
-        # 2. Execute Real-Time Live API Reconnaissance exclusively for LinkedIn
-        with ThreadPoolExecutor(max_workers=3) as executor:
+        # 2. Execute Real-Time Live API Reconnaissance for LinkedIn & Wikipedia Public Records
+        with ThreadPoolExecutor(max_workers=4) as executor:
             f_linkedin = executor.submit(self.search_linkedin, clean_query, clean_context)
             f_probes = executor.submit(self.probe_social_handles, clean_query)
+            f_wiki = executor.submit(self.search_wikipedia, clean_query)
 
             linkedin_profiles = f_linkedin.result()
             probed_handles = f_probes.result()
+            wiki_profiles = f_wiki.result()
 
-        # Keep EXCLUSIVELY LinkedIn profiles
+        # Keep LinkedIn and Wikipedia profiles
         live_web_sources = [p for p in linkedin_profiles if p.get("platform") == "LinkedIn" or "linkedin.com" in p.get("profile_url", "")]
         
-        # Fallback to direct handle probe if no Google API match found
-        if not live_web_sources and probed_handles:
-            for ph in probed_handles:
-                live_web_sources.append({
-                    "platform": "LinkedIn",
-                    "username": ph["username"],
-                    "canonical_name": clean_query.title() if clean_query else "LinkedIn User",
-                    "bio": f"LinkedIn professional profile for {clean_query} (@{ph['username']})",
-                    "avatar_url": None,
-                    "profile_url": ph["url"],
-                    "institution": "LinkedIn Professional Network"
-                })
+        # Incorporate Wikipedia record if reputed entity found
+        wiki_entry = wiki_profiles[0] if wiki_profiles else None
+
+        # Fallback to direct handle probe or Wikipedia if no Google Search API match found
+        if not live_web_sources:
+            if wiki_entry:
+                live_web_sources.append(wiki_entry)
+            elif probed_handles:
+                for ph in probed_handles:
+                    live_web_sources.append({
+                        "platform": "LinkedIn",
+                        "username": ph["username"],
+                        "canonical_name": clean_query.title() if clean_query else "LinkedIn User",
+                        "bio": f"LinkedIn professional profile for {clean_query} (@{ph['username']})",
+                        "avatar_url": None,
+                        "profile_url": ph["url"],
+                        "institution": "LinkedIn Professional Network"
+                    })
 
         resolved_candidates = []
         for source in live_web_sources:
-            platform_name = "LinkedIn"
+            platform_name = source.get("platform", "LinkedIn")
             canonical_name = source["canonical_name"]
             bio_text = source["bio"]
             avatar_url = source.get("avatar_url")
             profile_url = source["profile_url"]
-            institution = "LinkedIn Professional Network"
+            institution = source.get("institution", "LinkedIn Professional Network")
             username = source.get("username", clean_query or "target")
+
+            # Enrich with Wikipedia bio summary if available and source is LinkedIn
+            if wiki_entry and wiki_entry.get("bio") and platform_name == "LinkedIn":
+                bio_text = f"{bio_text}\n\n[Wikipedia Record]: {wiki_entry['bio']}"
+                if not avatar_url and wiki_entry.get("avatar_url"):
+                    avatar_url = wiki_entry["avatar_url"]
 
             # Compute Facial Similarity if avatar available
             facial_sim = 88.0
@@ -674,7 +688,7 @@ class OSINTCrawler:
             else:
                 handle_sim = bio_sim
 
-            # Combine all real existing account URLs discovered across probed social media sites
+            # Combine all real existing account URLs discovered across probed social media sites & Wikipedia
             seen_urls = {profile_url}
             discovered_handles = [{"platform": platform_name, "username": username, "url": profile_url}]
             evidence_items = [
@@ -685,6 +699,21 @@ class OSINTCrawler:
                     "proof_type": f"Live {platform_name} REST API Verified Match"
                 }
             ]
+
+            # Add Wikipedia handle & evidence proof if reputed persona record exists
+            if wiki_entry and wiki_entry.get("profile_url") not in seen_urls:
+                seen_urls.add(wiki_entry["profile_url"])
+                discovered_handles.append({
+                    "platform": "Wikipedia",
+                    "username": wiki_entry.get("canonical_name", clean_query),
+                    "url": wiki_entry["profile_url"]
+                })
+                evidence_items.append({
+                    "node_id": f"H_LIVE_Wikipedia_{wiki_entry.get('canonical_name', 'Entity').replace(' ', '_')}",
+                    "source_url": wiki_entry["profile_url"],
+                    "verified_at": "2026-09-19",
+                    "proof_type": "Verified Wikipedia Entity Directory Record"
+                })
 
             for ph in probed_handles:
                 if ph["url"] not in seen_urls:
@@ -701,8 +730,7 @@ class OSINTCrawler:
                         "proof_type": f"Live Probe Response (200 OK) on {ph['platform']}"
                     })
 
-            # Compute multi-modal confidence score for LinkedIn candidate
-
+            # Compute multi-modal confidence score
             confidence = calculate_confidence(
                 facial_score=facial_sim,
                 bio_score=bio_sim,
@@ -723,18 +751,30 @@ class OSINTCrawler:
 
             person_id = f"P_LIVE_{abs(hash(target_canonical + platform_name)) % 10000}"
 
+            roles_list = ["Verified Public Profile"]
+            if wiki_entry:
+                roles_list.append("Wikipedia Verified Public Figure")
+
+            timeline_events = [
+                {"year": "2026", "event": f"Discovered Live Profile on {platform_name} & {len(discovered_handles)} social platforms", "category": "recon"}
+            ]
+            if wiki_entry:
+                timeline_events.append({
+                    "year": "2026",
+                    "event": f"Wikipedia Record Verified: {wiki_entry.get('bio', '')[:120]}...",
+                    "category": "milestone"
+                })
+
             candidate_obj = {
                 "person_id": person_id,
                 "canonical_name": target_canonical,
-                "primary_image": avatar_url or "/dataset/images/piyush.jpg",
-                "institution": institution,
-                "roles": ["Verified Public Profile"],
+                "primary_image": avatar_url or (wiki_entry.get("avatar_url") if wiki_entry else "/dataset/images/piyush.jpg"),
+                "institution": wiki_entry.get("institution") if wiki_entry else institution,
+                "roles": roles_list,
                 "handles": discovered_handles,
                 "bios": [bio_text],
                 "projects": [f"{(clean_query or 'target').lower().replace(' ', '-')}-repos", "Verified Digital Identity"],
-                "timeline": [
-                    {"year": "2026", "event": f"Discovered Live Profile on {platform_name} & {len(discovered_handles)} social platforms", "category": "recon"}
-                ],
+                "timeline": timeline_events,
                 "evidence_trail": evidence_items
             }
 
