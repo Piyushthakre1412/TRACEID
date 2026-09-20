@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { ShieldCheck, CheckCircle2, Link, ExternalLink, Calendar, UserCheck, Layers, Globe, Sparkles, UserX } from 'lucide-react';
+import { ShieldCheck, CheckCircle2, Link, ExternalLink, Calendar, UserCheck, Layers, Globe, Sparkles, UserX, GitBranch } from 'lucide-react';
 import ProfileSummary from './ProfileSummary';
 import ActivityTimeline from './ActivityTimeline';
+import ActivityFlowchart from './ActivityFlowchart';
 
 export default function EvidenceInspector({ identity, allIdentities, evidenceTrail, timeline, selectedNode }) {
-  const [activeTab, setActiveTab] = useState('evidence');
+  const [activeTab, setActiveTab] = useState('flowchart');
   const isNotFound = (!allIdentities || allIdentities.length === 0 || !allIdentities[0]) && (!identity || identity?.person_id === 'P_NOT_FOUND');
   const targetList = isNotFound ? [] : ((allIdentities && allIdentities.length > 0) ? allIdentities : (identity ? [identity] : []));
 
@@ -38,7 +39,16 @@ export default function EvidenceInspector({ identity, allIdentities, evidenceTra
         </div>
 
         {/* Tab Navigation */}
-        <div className="flex bg-slate-950 p-1 rounded-xl border border-slate-800 text-xs">
+        <div className="flex bg-slate-950 p-1 rounded-xl border border-slate-800 text-xs gap-1">
+          <button
+            onClick={() => setActiveTab('flowchart')}
+            className={`flex-1 py-1.5 rounded-lg font-bold flex items-center justify-center gap-1 transition-all ${
+              activeTab === 'flowchart' ? 'bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-md' : 'text-slate-400 hover:text-slate-200'
+            }`}
+          >
+            <GitBranch className="w-3 h-3 text-emerald-400" />
+            <span>AI Flowchart</span>
+          </button>
           <button
             onClick={() => setActiveTab('evidence')}
             className={`flex-1 py-1.5 rounded-lg font-medium transition-all ${
@@ -200,6 +210,10 @@ export default function EvidenceInspector({ identity, allIdentities, evidenceTra
               );
             })}
           </div>
+        )}
+
+        {activeTab === 'flowchart' && (
+          <ActivityFlowchart timeline={timeline} candidateName={targetList[0]?.canonical_name} />
         )}
 
         {activeTab === 'timeline' && (
