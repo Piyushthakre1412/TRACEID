@@ -66,6 +66,16 @@ async def get_identity_graph(
         weight_handle=weight_handle
     )
 
+    target_ids = [p.strip() for p in person_id.split(",") if p.strip()]
+    all_profiles_list = [get_profile_by_id(t) for t in target_ids if get_profile_by_id(t)]
+    if not all_profiles_list:
+        all_profiles_list = [profile]
+
+    # Ensure graph memory contains target candidates
+    missing_targets = [p for p in all_profiles_list if p and p.get("person_id") not in graph_builder.G]
+    if missing_targets:
+        graph_builder.build_from_candidates(all_profiles_list)
+
     # Fetch React Flow formatted nodes & edges from NetworkX graph builder
     react_flow_graph = graph_builder.get_react_flow_graph(
         target_person_id=person_id,

@@ -71,10 +71,6 @@ async def search_identity(
         candidate = live_match["candidate"]
         confidence = live_match["confidence"]
         
-        # Re-build NetworkX graph with newly discovered candidates
-        all_candidates = get_all_profiles()
-        graph_builder.build_from_candidates(all_candidates)
-
         all_matches_raw = live_match.get("all_matches", [candidate])
         all_match_objs = []
         all_ids = []
@@ -108,6 +104,13 @@ async def search_identity(
                         "handle_match": handle_sim
                     }
                 })
+
+        # Re-build NetworkX graph strictly from relevant mode candidates
+        if search_mode == "live":
+            graph_builder.build_from_candidates(all_match_objs)
+        else:
+            all_candidates = get_all_profiles()
+            graph_builder.build_from_candidates(all_candidates)
 
         return {
             "person_id": candidate["person_id"],
