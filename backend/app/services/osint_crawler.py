@@ -601,8 +601,9 @@ class OSINTCrawler:
                     else:
                         bio_sim = 85.0
 
+                    facial_score_val = 92.0 if seed_face_vector is not None else 0.0
                     confidence = calculate_confidence(
-                        facial_score=92.0,
+                        facial_score=facial_score_val,
                         bio_score=bio_sim,
                         handle_score=name_handle_score,
                         weight_face=weight_face,
@@ -708,8 +709,8 @@ class OSINTCrawler:
                 if not avatar_url and wiki_entry.get("avatar_url"):
                     avatar_url = wiki_entry["avatar_url"]
 
-            # Compute Facial Similarity if avatar available
-            facial_sim = 88.0
+            # Compute Facial Similarity if photo uploaded
+            facial_sim = 0.0
             if seed_face_vector is not None and avatar_url:
                 try:
                     img_resp = requests.get(avatar_url, timeout=3)
@@ -724,7 +725,7 @@ class OSINTCrawler:
                         except Exception:
                             pass
                 except Exception:
-                    facial_sim = 85.0
+                    facial_sim = 0.0
 
             # Compute Bio Semantic Similarity using sentence-transformers against query + context
             target_context_text = f"{clean_query} {clean_context}".strip() if clean_query else clean_context
