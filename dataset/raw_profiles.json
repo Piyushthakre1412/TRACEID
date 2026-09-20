@@ -1,0 +1,1291 @@
+{
+  "github_profiles": [
+    {
+      "platform": "GitHub",
+      "username": "aarav_sharma",
+      "url": "https://github.com/aarav_sharma",
+      "name": "Aarav Sharma",
+      "bio": "AI Researcher at IIT Bombay",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=aarav_sharma"
+    },
+    {
+      "platform": "GitHub",
+      "username": "aarav_sharma_bits",
+      "url": "https://github.com/aarav_sharma_bits",
+      "name": "Aarav Sharma",
+      "bio": "Cloud Architect at BITS Pilani",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=aarav_sharma_bits"
+    },
+    {
+      "platform": "GitHub",
+      "username": "jsmith-sec",
+      "url": "https://github.com/jsmith-sec",
+      "name": "John Smith",
+      "bio": "Security Engineer at Stanford Security Lab",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=jsmith-sec"
+    },
+    {
+      "platform": "GitHub",
+      "username": "jsmith-design",
+      "url": "https://github.com/jsmith-design",
+      "name": "John Smith",
+      "bio": "UX Designer at MIT Media Lab",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=jsmith-design"
+    },
+    {
+      "platform": "GitHub",
+      "username": "4n4ny4_verma",
+      "url": "https://github.com/4n4ny4_verma",
+      "name": "Ananya Verma",
+      "bio": "Computer Vision Dev at IIIT Hyderabad",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=4n4ny4_verma"
+    },
+    {
+      "platform": "GitHub",
+      "username": "r0h4n_gupt4",
+      "url": "https://github.com/r0h4n_gupt4",
+      "name": "Rohan Gupta",
+      "bio": "Blockchain Developer at Delhi Technological University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=r0h4n_gupt4"
+    },
+    {
+      "platform": "GitHub",
+      "username": "neha_kulkarni",
+      "url": "https://github.com/neha_kulkarni",
+      "name": "Neha Kulkarni",
+      "bio": "DevOps Engineer at COEP Pune",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=neha_kulkarni"
+    },
+    {
+      "platform": "GitHub",
+      "username": "siddharth_d",
+      "url": "https://github.com/siddharth_d",
+      "name": "Siddharth Deshmukh",
+      "bio": "Full Stack Developer at VNIT Nagpur",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=siddharth_d"
+    },
+    {
+      "platform": "GitHub",
+      "username": "4d1ty4_j0sh1",
+      "url": "https://github.com/4d1ty4_j0sh1",
+      "name": "Aditya Joshi",
+      "bio": "Machine Learning Eng at VJTI Mumbai",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=4d1ty4_j0sh1"
+    },
+    {
+      "platform": "GitHub",
+      "username": "priya_patel_ds",
+      "url": "https://github.com/priya_patel_ds",
+      "name": "Priya Patel",
+      "bio": "Data Scientist at Gujarat Technological University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=priya_patel_ds"
+    },
+    {
+      "platform": "GitHub",
+      "username": "karan_mehta",
+      "url": "https://github.com/karan_mehta",
+      "name": "Karan Mehta",
+      "bio": "Product Manager at NMIMS Mumbai",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=karan_mehta"
+    },
+    {
+      "platform": "GitHub",
+      "username": "tanvi_rao",
+      "url": "https://github.com/tanvi_rao",
+      "name": "Tanvi Rao",
+      "bio": "Mobile App Dev at PES University Bangalore",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=tanvi_rao"
+    },
+    {
+      "platform": "GitHub",
+      "username": "v1kr4m_s1ngh",
+      "url": "https://github.com/v1kr4m_s1ngh",
+      "name": "Vikram Singh",
+      "bio": "Quantum Computing at IIT Delhi",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=v1kr4m_s1ngh"
+    },
+    {
+      "platform": "GitHub",
+      "username": "meera_nair_nlp",
+      "url": "https://github.com/meera_nair_nlp",
+      "name": "Meera Nair",
+      "bio": "NLP Researcher at NIT Calicut",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=meera_nair_nlp"
+    },
+    {
+      "platform": "GitHub",
+      "username": "d3v4nsh_sec",
+      "url": "https://github.com/d3v4nsh_sec",
+      "name": "Devansh Saxena",
+      "bio": "Cybersecurity Analyst at IIT Roorkee",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=d3v4nsh_sec"
+    },
+    {
+      "platform": "GitHub",
+      "username": "ishita_bhasin",
+      "url": "https://github.com/ishita_bhasin",
+      "name": "Ishita Bhasin",
+      "bio": "Frontend Engineer at NSUT Delhi",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=ishita_bhasin"
+    },
+    {
+      "platform": "GitHub",
+      "username": "yash_agarwal_dev",
+      "url": "https://github.com/yash_agarwal_dev",
+      "name": "Yash Agarwal",
+      "bio": "Game Developer at Manipal Institute of Tech",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=yash_agarwal_dev"
+    },
+    {
+      "platform": "GitHub",
+      "username": "sneha_r",
+      "url": "https://github.com/sneha_r",
+      "name": "Sneha Reddiyar",
+      "bio": "Embedded Systems at Anna University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=sneha_r"
+    },
+    {
+      "platform": "GitHub",
+      "username": "h4rsh_sh1nd3",
+      "url": "https://github.com/h4rsh_sh1nd3",
+      "name": "Harshvardhan Shinde",
+      "bio": "Backend Architect at PICT Pune",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=h4rsh_sh1nd3"
+    },
+    {
+      "platform": "GitHub",
+      "username": "kavya_nambiar",
+      "url": "https://github.com/kavya_nambiar",
+      "name": "Kavya Nambiar",
+      "bio": "Robotics Engineer at IIT Madras",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=kavya_nambiar"
+    },
+    {
+      "platform": "GitHub",
+      "username": "ritik_chouhan",
+      "url": "https://github.com/ritik_chouhan",
+      "name": "Ritik Chouhan",
+      "bio": "System Architect at IIT Kharagpur",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=ritik_chouhan"
+    },
+    {
+      "platform": "GitHub",
+      "username": "shreya_bose",
+      "url": "https://github.com/shreya_bose",
+      "name": "Shreya Bose",
+      "bio": "Bioinformatics Dev at Jadavpur University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=shreya_bose"
+    },
+    {
+      "platform": "GitHub",
+      "username": "m4n1sh_k",
+      "url": "https://github.com/m4n1sh_k",
+      "name": "Manish Kumar",
+      "bio": "Database Admin at NIT Trichy",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=m4n1sh_k"
+    },
+    {
+      "platform": "GitHub",
+      "username": "kirti_p",
+      "url": "https://github.com/kirti_p",
+      "name": "Kirti Pandharipande",
+      "bio": "AI Systems Specialist at PRMITR Badnera",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=kirti_p"
+    },
+    {
+      "platform": "GitHub",
+      "username": "aman_singh_sre",
+      "url": "https://github.com/aman_singh_sre",
+      "name": "Amanpreet Singh",
+      "bio": "Site Reliability Eng at Thapar University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=aman_singh_sre"
+    },
+    {
+      "platform": "GitHub",
+      "username": "divya_s",
+      "url": "https://github.com/divya_s",
+      "name": "Divya Sundaram",
+      "bio": "Cloud Native Dev at SSN College of Eng",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=divya_s"
+    },
+    {
+      "platform": "GitHub",
+      "username": "g4ur4v_b4ns4l",
+      "url": "https://github.com/g4ur4v_b4ns4l",
+      "name": "Gaurav Bansal",
+      "bio": "Fintech Engineer at PEC Chandigarh",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=g4ur4v_b4ns4l"
+    },
+    {
+      "platform": "GitHub",
+      "username": "nikita_c",
+      "url": "https://github.com/nikita_c",
+      "name": "Nikita Chaudhari",
+      "bio": "Data Visualization at PRMITR Badnera",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=nikita_c"
+    },
+    {
+      "platform": "GitHub",
+      "username": "rishabh_t",
+      "url": "https://github.com/rishabh_t",
+      "name": "Rishabh Tiwari",
+      "bio": "Distributed Systems at MNNIT Allahabad",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=rishabh_t"
+    },
+    {
+      "platform": "GitHub",
+      "username": "pooja_hegde_av",
+      "url": "https://github.com/pooja_hegde_av",
+      "name": "Pooja Hegde",
+      "bio": "Autonomous Vehicles at RVCE Bangalore",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=pooja_hegde_av"
+    },
+    {
+      "platform": "GitHub",
+      "username": "v4run_k",
+      "url": "https://github.com/v4run_k",
+      "name": "Varun Kulkarni",
+      "bio": "Compiler Engineer at WCE Sangli",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=v4run_k"
+    },
+    {
+      "platform": "GitHub",
+      "username": "anushree_p",
+      "url": "https://github.com/anushree_p",
+      "name": "Anushree Pillai",
+      "bio": "NLP & LLM Specialist at Amrita University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=anushree_p"
+    },
+    {
+      "platform": "GitHub",
+      "username": "pranav_gore",
+      "url": "https://github.com/pranav_gore",
+      "name": "Pranav Gore",
+      "bio": "Mobile Developer at PRMITR Badnera",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=pranav_gore"
+    },
+    {
+      "platform": "GitHub",
+      "username": "r4dh1k4_m",
+      "url": "https://github.com/r4dh1k4_m",
+      "name": "Radhika Mahajan",
+      "bio": "Edge AI Researcher at VNIT Nagpur",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=r4dh1k4_m"
+    },
+    {
+      "platform": "GitHub",
+      "username": "kartik_shenoy",
+      "url": "https://github.com/kartik_shenoy",
+      "name": "Kartik Shenoy",
+      "bio": "High Performance Computing at IIT Guwahati",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=kartik_shenoy"
+    },
+    {
+      "platform": "GitHub",
+      "username": "bhavna_m",
+      "url": "https://github.com/bhavna_m",
+      "name": "Bhavna Mishra",
+      "bio": "Signal Processing at BHU Varanasi",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=bhavna_m"
+    },
+    {
+      "platform": "GitHub",
+      "username": "tushar_d",
+      "url": "https://github.com/tushar_d",
+      "name": "Tushar Deshpande",
+      "bio": "Linux Kernel Dev at COEP Pune",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=tushar_d"
+    },
+    {
+      "platform": "GitHub",
+      "username": "sayali_w",
+      "url": "https://github.com/sayali_w",
+      "name": "Sayali Wankhede",
+      "bio": "Full Stack Developer at PRMITR Badnera",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=sayali_w"
+    },
+    {
+      "platform": "GitHub",
+      "username": "s4m33r_k4z1",
+      "url": "https://github.com/s4m33r_k4z1",
+      "name": "Sameer Kazi",
+      "bio": "DevSecOps Specialist at VJTI Mumbai",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=s4m33r_k4z1"
+    },
+    {
+      "platform": "GitHub",
+      "username": "nisha_agarwal",
+      "url": "https://github.com/nisha_agarwal",
+      "name": "Nisha Agarwal",
+      "bio": "AI Ethics Researcher at IGDTUW Delhi",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=nisha_agarwal"
+    },
+    {
+      "platform": "GitHub",
+      "username": "abhinav_iyer",
+      "url": "https://github.com/abhinav_iyer",
+      "name": "Abhinav Iyer",
+      "bio": "VLSI Hardware Design at NITT Trichy",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=abhinav_iyer"
+    },
+    {
+      "platform": "GitHub",
+      "username": "srishti_s",
+      "url": "https://github.com/srishti_s",
+      "name": "Srishti Saxena",
+      "bio": "Microservices Engineer at BITS Hyderabad",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=srishti_s"
+    },
+    {
+      "platform": "GitHub",
+      "username": "chaitanya_b",
+      "url": "https://github.com/chaitanya_b",
+      "name": "Chaitanya Bapat",
+      "bio": "Search Engine Architect at PICT Pune",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=chaitanya_b"
+    },
+    {
+      "platform": "GitHub",
+      "username": "d33p1k4_s",
+      "url": "https://github.com/d33p1k4_s",
+      "name": "Deepika Sundar",
+      "bio": "Deep Learning Eng at IIT Hyderabad",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=d33p1k4_s"
+    },
+    {
+      "platform": "GitHub",
+      "username": "utkarsh_t",
+      "url": "https://github.com/utkarsh_t",
+      "name": "Utkarsh Tripathi",
+      "bio": "Algorithmic Trader at IIIT Allahabad",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=utkarsh_t"
+    },
+    {
+      "platform": "GitHub",
+      "username": "mitali_rane",
+      "url": "https://github.com/mitali_rane",
+      "name": "Mitali Rane",
+      "bio": "Graph Neural Networks at VJTI Mumbai",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=mitali_rane"
+    },
+    {
+      "platform": "GitHub",
+      "username": "piyush-thakre",
+      "url": "https://github.com/piyush-thakre",
+      "name": "Piyush Thakre",
+      "bio": "AI & ML enthusiast | Engineering student at PRMITR Badnera | Team Lead @ Team Ace",
+      "avatar_url": "/dataset/images/piyush.jpg"
+    },
+    {
+      "platform": "GitHub",
+      "username": "om-patil",
+      "url": "https://github.com/om-patil",
+      "name": "Om Patil",
+      "bio": "Frontend architect | React & Data Visualization expert | PRMITR Badnera",
+      "avatar_url": "/dataset/images/om.jpg"
+    },
+    {
+      "platform": "GitHub",
+      "username": "satwik-mhasaye",
+      "url": "https://github.com/satwik-mhasaye",
+      "name": "Satwik Mhasaye",
+      "bio": "Backend & Graph Database engineer | NetworkX & FastAPI lover | PRMITR Badnera",
+      "avatar_url": "/dataset/images/satwik.jpg"
+    },
+    {
+      "platform": "GitHub",
+      "username": "vyankatesh-raut",
+      "url": "https://github.com/vyankatesh-raut",
+      "name": "Vyankatesh Raut",
+      "bio": "Cybersecurity researcher & OSINT Analyst | PRMITR Badnera",
+      "avatar_url": "/dataset/images/vyankatesh.jpg"
+    }
+  ],
+  "linkedin_profiles": [
+    {
+      "platform": "LinkedIn",
+      "username": "aarav-sharma-iitb",
+      "url": "https://linkedin.com/in/aarav-sharma-iitb",
+      "name": "Aarav Sharma",
+      "headline": "AI Researcher at IIT Bombay",
+      "institution": "IIT Bombay",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=aarav-sharma-iitb"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "aarav-sharma-cloud",
+      "url": "https://linkedin.com/in/aarav-sharma-cloud",
+      "name": "Aarav Sharma",
+      "headline": "Cloud Architect at BITS Pilani",
+      "institution": "BITS Pilani",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=aarav-sharma-cloud"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "john-smith-stanford",
+      "url": "https://linkedin.com/in/john-smith-stanford",
+      "name": "John Smith",
+      "headline": "Security Engineer at Stanford Security Lab",
+      "institution": "Stanford Security Lab",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=john-smith-stanford"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "john-smith-ux",
+      "url": "https://linkedin.com/in/john-smith-ux",
+      "name": "John Smith",
+      "headline": "UX Designer at MIT Media Lab",
+      "institution": "MIT Media Lab",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=john-smith-ux"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "ananya-verma-cv",
+      "url": "https://linkedin.com/in/ananya-verma-cv",
+      "name": "Ananya Verma",
+      "headline": "Computer Vision Dev at IIIT Hyderabad",
+      "institution": "IIIT Hyderabad",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=ananya-verma-cv"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "rohan-gupta-dtu",
+      "url": "https://linkedin.com/in/rohan-gupta-dtu",
+      "name": "Rohan Gupta",
+      "headline": "Blockchain Developer at Delhi Technological University",
+      "institution": "Delhi Technological University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=rohan-gupta-dtu"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "neha-kulkarni-coep",
+      "url": "https://linkedin.com/in/neha-kulkarni-coep",
+      "name": "Neha Kulkarni",
+      "headline": "DevOps Engineer at COEP Pune",
+      "institution": "COEP Pune",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=neha-kulkarni-coep"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "siddharth-deshmukh-vnit",
+      "url": "https://linkedin.com/in/siddharth-deshmukh-vnit",
+      "name": "Siddharth Deshmukh",
+      "headline": "Full Stack Developer at VNIT Nagpur",
+      "institution": "VNIT Nagpur",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=siddharth-deshmukh-vnit"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "aditya-joshi-vjti",
+      "url": "https://linkedin.com/in/aditya-joshi-vjti",
+      "name": "Aditya Joshi",
+      "headline": "Machine Learning Eng at VJTI Mumbai",
+      "institution": "VJTI Mumbai",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=aditya-joshi-vjti"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "priya-patel-ds",
+      "url": "https://linkedin.com/in/priya-patel-ds",
+      "name": "Priya Patel",
+      "headline": "Data Scientist at Gujarat Technological University",
+      "institution": "Gujarat Technological University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=priya-patel-ds"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "karan-mehta-pm",
+      "url": "https://linkedin.com/in/karan-mehta-pm",
+      "name": "Karan Mehta",
+      "headline": "Product Manager at NMIMS Mumbai",
+      "institution": "NMIMS Mumbai",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=karan-mehta-pm"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "tanvi-rao-flutter",
+      "url": "https://linkedin.com/in/tanvi-rao-flutter",
+      "name": "Tanvi Rao",
+      "headline": "Mobile App Dev at PES University Bangalore",
+      "institution": "PES University Bangalore",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=tanvi-rao-flutter"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "vikram-singh-quantum",
+      "url": "https://linkedin.com/in/vikram-singh-quantum",
+      "name": "Vikram Singh",
+      "headline": "Quantum Computing at IIT Delhi",
+      "institution": "IIT Delhi",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=vikram-singh-quantum"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "meera-nair-nitc",
+      "url": "https://linkedin.com/in/meera-nair-nitc",
+      "name": "Meera Nair",
+      "headline": "NLP Researcher at NIT Calicut",
+      "institution": "NIT Calicut",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=meera-nair-nitc"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "devansh-saxena-iitr",
+      "url": "https://linkedin.com/in/devansh-saxena-iitr",
+      "name": "Devansh Saxena",
+      "headline": "Cybersecurity Analyst at IIT Roorkee",
+      "institution": "IIT Roorkee",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=devansh-saxena-iitr"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "ishita-bhasin-nsut",
+      "url": "https://linkedin.com/in/ishita-bhasin-nsut",
+      "name": "Ishita Bhasin",
+      "headline": "Frontend Engineer at NSUT Delhi",
+      "institution": "NSUT Delhi",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=ishita-bhasin-nsut"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "yash-agarwal-mit",
+      "url": "https://linkedin.com/in/yash-agarwal-mit",
+      "name": "Yash Agarwal",
+      "headline": "Game Developer at Manipal Institute of Tech",
+      "institution": "Manipal Institute of Tech",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=yash-agarwal-mit"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "sneha-reddiyar-anna",
+      "url": "https://linkedin.com/in/sneha-reddiyar-anna",
+      "name": "Sneha Reddiyar",
+      "headline": "Embedded Systems at Anna University",
+      "institution": "Anna University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=sneha-reddiyar-anna"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "harsh-shinde-pict",
+      "url": "https://linkedin.com/in/harsh-shinde-pict",
+      "name": "Harshvardhan Shinde",
+      "headline": "Backend Architect at PICT Pune",
+      "institution": "PICT Pune",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=harsh-shinde-pict"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "kavya-nambiar-iitm",
+      "url": "https://linkedin.com/in/kavya-nambiar-iitm",
+      "name": "Kavya Nambiar",
+      "headline": "Robotics Engineer at IIT Madras",
+      "institution": "IIT Madras",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=kavya-nambiar-iitm"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "ritik-chouhan-iitkgp",
+      "url": "https://linkedin.com/in/ritik-chouhan-iitkgp",
+      "name": "Ritik Chouhan",
+      "headline": "System Architect at IIT Kharagpur",
+      "institution": "IIT Kharagpur",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=ritik-chouhan-iitkgp"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "shreya-bose-ju",
+      "url": "https://linkedin.com/in/shreya-bose-ju",
+      "name": "Shreya Bose",
+      "headline": "Bioinformatics Dev at Jadavpur University",
+      "institution": "Jadavpur University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=shreya-bose-ju"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "manish-kumar-nitt",
+      "url": "https://linkedin.com/in/manish-kumar-nitt",
+      "name": "Manish Kumar",
+      "headline": "Database Admin at NIT Trichy",
+      "institution": "NIT Trichy",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=manish-kumar-nitt"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "kirti-pandharipande",
+      "url": "https://linkedin.com/in/kirti-pandharipande",
+      "name": "Kirti Pandharipande",
+      "headline": "AI Systems Specialist at PRMITR Badnera",
+      "institution": "PRMITR Badnera",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=kirti-pandharipande"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "amanpreet-singh-thapar",
+      "url": "https://linkedin.com/in/amanpreet-singh-thapar",
+      "name": "Amanpreet Singh",
+      "headline": "Site Reliability Eng at Thapar University",
+      "institution": "Thapar University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=amanpreet-singh-thapar"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "divya-sundaram-ssn",
+      "url": "https://linkedin.com/in/divya-sundaram-ssn",
+      "name": "Divya Sundaram",
+      "headline": "Cloud Native Dev at SSN College of Eng",
+      "institution": "SSN College of Eng",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=divya-sundaram-ssn"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "gaurav-bansal-pec",
+      "url": "https://linkedin.com/in/gaurav-bansal-pec",
+      "name": "Gaurav Bansal",
+      "headline": "Fintech Engineer at PEC Chandigarh",
+      "institution": "PEC Chandigarh",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=gaurav-bansal-pec"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "nikita-chaudhari-badnera",
+      "url": "https://linkedin.com/in/nikita-chaudhari-badnera",
+      "name": "Nikita Chaudhari",
+      "headline": "Data Visualization at PRMITR Badnera",
+      "institution": "PRMITR Badnera",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=nikita-chaudhari-badnera"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "rishabh-tiwari-mnnit",
+      "url": "https://linkedin.com/in/rishabh-tiwari-mnnit",
+      "name": "Rishabh Tiwari",
+      "headline": "Distributed Systems at MNNIT Allahabad",
+      "institution": "MNNIT Allahabad",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=rishabh-tiwari-mnnit"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "pooja-hegde-rvce",
+      "url": "https://linkedin.com/in/pooja-hegde-rvce",
+      "name": "Pooja Hegde",
+      "headline": "Autonomous Vehicles at RVCE Bangalore",
+      "institution": "RVCE Bangalore",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=pooja-hegde-rvce"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "varun-kulkarni-wce",
+      "url": "https://linkedin.com/in/varun-kulkarni-wce",
+      "name": "Varun Kulkarni",
+      "headline": "Compiler Engineer at WCE Sangli",
+      "institution": "WCE Sangli",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=varun-kulkarni-wce"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "anushree-pillai-amrita",
+      "url": "https://linkedin.com/in/anushree-pillai-amrita",
+      "name": "Anushree Pillai",
+      "headline": "NLP & LLM Specialist at Amrita University",
+      "institution": "Amrita University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=anushree-pillai-amrita"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "pranav-gore-badnera",
+      "url": "https://linkedin.com/in/pranav-gore-badnera",
+      "name": "Pranav Gore",
+      "headline": "Mobile Developer at PRMITR Badnera",
+      "institution": "PRMITR Badnera",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=pranav-gore-badnera"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "radhika-mahajan-vnit",
+      "url": "https://linkedin.com/in/radhika-mahajan-vnit",
+      "name": "Radhika Mahajan",
+      "headline": "Edge AI Researcher at VNIT Nagpur",
+      "institution": "VNIT Nagpur",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=radhika-mahajan-vnit"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "kartik-shenoy-iitg",
+      "url": "https://linkedin.com/in/kartik-shenoy-iitg",
+      "name": "Kartik Shenoy",
+      "headline": "High Performance Computing at IIT Guwahati",
+      "institution": "IIT Guwahati",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=kartik-shenoy-iitg"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "bhavna-mishra-bhu",
+      "url": "https://linkedin.com/in/bhavna-mishra-bhu",
+      "name": "Bhavna Mishra",
+      "headline": "Signal Processing at BHU Varanasi",
+      "institution": "BHU Varanasi",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=bhavna-mishra-bhu"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "tushar-deshpande-coep",
+      "url": "https://linkedin.com/in/tushar-deshpande-coep",
+      "name": "Tushar Deshpande",
+      "headline": "Linux Kernel Dev at COEP Pune",
+      "institution": "COEP Pune",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=tushar-deshpande-coep"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "sayali-wankhede-badnera",
+      "url": "https://linkedin.com/in/sayali-wankhede-badnera",
+      "name": "Sayali Wankhede",
+      "headline": "Full Stack Developer at PRMITR Badnera",
+      "institution": "PRMITR Badnera",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=sayali-wankhede-badnera"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "sameer-kazi-vjti",
+      "url": "https://linkedin.com/in/sameer-kazi-vjti",
+      "name": "Sameer Kazi",
+      "headline": "DevSecOps Specialist at VJTI Mumbai",
+      "institution": "VJTI Mumbai",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=sameer-kazi-vjti"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "nisha-agarwal-igdtuw",
+      "url": "https://linkedin.com/in/nisha-agarwal-igdtuw",
+      "name": "Nisha Agarwal",
+      "headline": "AI Ethics Researcher at IGDTUW Delhi",
+      "institution": "IGDTUW Delhi",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=nisha-agarwal-igdtuw"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "abhinav-iyer-nitt",
+      "url": "https://linkedin.com/in/abhinav-iyer-nitt",
+      "name": "Abhinav Iyer",
+      "headline": "VLSI Hardware Design at NITT Trichy",
+      "institution": "NITT Trichy",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=abhinav-iyer-nitt"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "srishti-saxena-bits",
+      "url": "https://linkedin.com/in/srishti-saxena-bits",
+      "name": "Srishti Saxena",
+      "headline": "Microservices Engineer at BITS Hyderabad",
+      "institution": "BITS Hyderabad",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=srishti-saxena-bits"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "chaitanya-bapat-pict",
+      "url": "https://linkedin.com/in/chaitanya-bapat-pict",
+      "name": "Chaitanya Bapat",
+      "headline": "Search Engine Architect at PICT Pune",
+      "institution": "PICT Pune",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=chaitanya-bapat-pict"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "deepika-sundar-iith",
+      "url": "https://linkedin.com/in/deepika-sundar-iith",
+      "name": "Deepika Sundar",
+      "headline": "Deep Learning Eng at IIT Hyderabad",
+      "institution": "IIT Hyderabad",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=deepika-sundar-iith"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "utkarsh-tripathi-iiita",
+      "url": "https://linkedin.com/in/utkarsh-tripathi-iiita",
+      "name": "Utkarsh Tripathi",
+      "headline": "Algorithmic Trader at IIIT Allahabad",
+      "institution": "IIIT Allahabad",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=utkarsh-tripathi-iiita"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "mitali-rane-vjti",
+      "url": "https://linkedin.com/in/mitali-rane-vjti",
+      "name": "Mitali Rane",
+      "headline": "Graph Neural Networks at VJTI Mumbai",
+      "institution": "VJTI Mumbai",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=mitali-rane-vjti"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "piyush-thakre-badnera",
+      "url": "https://linkedin.com/in/piyush-thakre-badnera",
+      "name": "Piyush Thakre",
+      "headline": "Team Lead",
+      "institution": "Prof. Ram Meghe Institute Of Technology and Research, Badnera",
+      "avatar_url": "/dataset/images/piyush.jpg"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "om-patil-ui",
+      "url": "https://linkedin.com/in/om-patil-ui",
+      "name": "Om Patil",
+      "headline": "Frontend Engineer",
+      "institution": "Prof. Ram Meghe Institute Of Technology and Research, Badnera",
+      "avatar_url": "/dataset/images/om.jpg"
+    },
+    {
+      "platform": "LinkedIn",
+      "username": "7wik-mhasaye",
+      "url": "https://linkedin.com/in/7wik-mhasaye",
+      "name": "Satwik Mhasaye",
+      "headline": "Data Engineer",
+      "institution": "Prof. Ram Meghe Institute Of Technology and Research, Badnera",
+      "avatar_url": "/dataset/images/satwik.jpg"
+    }
+  ],
+  "instagram_profiles": [
+    {
+      "platform": "Instagram",
+      "username": "aarav_ai",
+      "url": "https://instagram.com/aarav_ai",
+      "name": "Aarav Sharma",
+      "bio": "AI Researcher | IIT Bombay",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=aarav_ai"
+    },
+    {
+      "platform": "Instagram",
+      "username": "jsmith_creative",
+      "url": "https://instagram.com/jsmith_creative",
+      "name": "John Smith",
+      "bio": "UX Designer | MIT Media Lab",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=jsmith_creative"
+    },
+    {
+      "platform": "Instagram",
+      "username": "ananya_vision",
+      "url": "https://instagram.com/ananya_vision",
+      "name": "Ananya Verma",
+      "bio": "Computer Vision Dev | IIIT Hyderabad",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=ananya_vision"
+    },
+    {
+      "platform": "Instagram",
+      "username": "sid_deshmukh",
+      "url": "https://instagram.com/sid_deshmukh",
+      "name": "Siddharth Deshmukh",
+      "bio": "Full Stack Developer | VNIT Nagpur",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=sid_deshmukh"
+    },
+    {
+      "platform": "Instagram",
+      "username": "aditya_ml",
+      "url": "https://instagram.com/aditya_ml",
+      "name": "Aditya Joshi",
+      "bio": "Machine Learning Eng | VJTI Mumbai",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=aditya_ml"
+    },
+    {
+      "platform": "Instagram",
+      "username": "priya_data",
+      "url": "https://instagram.com/priya_data",
+      "name": "Priya Patel",
+      "bio": "Data Scientist | Gujarat Technological University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=priya_data"
+    },
+    {
+      "platform": "Instagram",
+      "username": "karan_m_official",
+      "url": "https://instagram.com/karan_m_official",
+      "name": "Karan Mehta",
+      "bio": "Product Manager | NMIMS Mumbai",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=karan_m_official"
+    },
+    {
+      "platform": "Instagram",
+      "username": "tanvi_creates",
+      "url": "https://instagram.com/tanvi_creates",
+      "name": "Tanvi Rao",
+      "bio": "Mobile App Dev | PES University Bangalore",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=tanvi_creates"
+    },
+    {
+      "platform": "Instagram",
+      "username": "meera_nair",
+      "url": "https://instagram.com/meera_nair",
+      "name": "Meera Nair",
+      "bio": "NLP Researcher | NIT Calicut",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=meera_nair"
+    },
+    {
+      "platform": "Instagram",
+      "username": "ishita_ui",
+      "url": "https://instagram.com/ishita_ui",
+      "name": "Ishita Bhasin",
+      "bio": "Frontend Engineer | NSUT Delhi",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=ishita_ui"
+    },
+    {
+      "platform": "Instagram",
+      "username": "yash_games",
+      "url": "https://instagram.com/yash_games",
+      "name": "Yash Agarwal",
+      "bio": "Game Developer | Manipal Institute of Tech",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=yash_games"
+    },
+    {
+      "platform": "Instagram",
+      "username": "harsh_backend",
+      "url": "https://instagram.com/harsh_backend",
+      "name": "Harshvardhan Shinde",
+      "bio": "Backend Architect | PICT Pune",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=harsh_backend"
+    },
+    {
+      "platform": "Instagram",
+      "username": "kavya_robotics",
+      "url": "https://instagram.com/kavya_robotics",
+      "name": "Kavya Nambiar",
+      "bio": "Robotics Engineer | IIT Madras",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=kavya_robotics"
+    },
+    {
+      "platform": "Instagram",
+      "username": "shreya_bio",
+      "url": "https://instagram.com/shreya_bio",
+      "name": "Shreya Bose",
+      "bio": "Bioinformatics Dev | Jadavpur University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=shreya_bio"
+    },
+    {
+      "platform": "Instagram",
+      "username": "kirti_p_ai",
+      "url": "https://instagram.com/kirti_p_ai",
+      "name": "Kirti Pandharipande",
+      "bio": "AI Systems Specialist | PRMITR Badnera",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=kirti_p_ai"
+    },
+    {
+      "platform": "Instagram",
+      "username": "divya_cloud",
+      "url": "https://instagram.com/divya_cloud",
+      "name": "Divya Sundaram",
+      "bio": "Cloud Native Dev | SSN College of Eng",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=divya_cloud"
+    },
+    {
+      "platform": "Instagram",
+      "username": "nikita_vis",
+      "url": "https://instagram.com/nikita_vis",
+      "name": "Nikita Chaudhari",
+      "bio": "Data Visualization | PRMITR Badnera",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=nikita_vis"
+    },
+    {
+      "platform": "Instagram",
+      "username": "pooja_av",
+      "url": "https://instagram.com/pooja_av",
+      "name": "Pooja Hegde",
+      "bio": "Autonomous Vehicles | RVCE Bangalore",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=pooja_av"
+    },
+    {
+      "platform": "Instagram",
+      "username": "anushree_llm",
+      "url": "https://instagram.com/anushree_llm",
+      "name": "Anushree Pillai",
+      "bio": "NLP & LLM Specialist | Amrita University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=anushree_llm"
+    },
+    {
+      "platform": "Instagram",
+      "username": "pranav_apps",
+      "url": "https://instagram.com/pranav_apps",
+      "name": "Pranav Gore",
+      "bio": "Mobile Developer | PRMITR Badnera",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=pranav_apps"
+    },
+    {
+      "platform": "Instagram",
+      "username": "radhika_edge",
+      "url": "https://instagram.com/radhika_edge",
+      "name": "Radhika Mahajan",
+      "bio": "Edge AI Researcher | VNIT Nagpur",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=radhika_edge"
+    },
+    {
+      "platform": "Instagram",
+      "username": "bhavna_dsp",
+      "url": "https://instagram.com/bhavna_dsp",
+      "name": "Bhavna Mishra",
+      "bio": "Signal Processing | BHU Varanasi",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=bhavna_dsp"
+    },
+    {
+      "platform": "Instagram",
+      "username": "sayali_web",
+      "url": "https://instagram.com/sayali_web",
+      "name": "Sayali Wankhede",
+      "bio": "Full Stack Developer | PRMITR Badnera",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=sayali_web"
+    },
+    {
+      "platform": "Instagram",
+      "username": "sameer_sec",
+      "url": "https://instagram.com/sameer_sec",
+      "name": "Sameer Kazi",
+      "bio": "DevSecOps Specialist | VJTI Mumbai",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=sameer_sec"
+    },
+    {
+      "platform": "Instagram",
+      "username": "nisha_ethics",
+      "url": "https://instagram.com/nisha_ethics",
+      "name": "Nisha Agarwal",
+      "bio": "AI Ethics Researcher | IGDTUW Delhi",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=nisha_ethics"
+    },
+    {
+      "platform": "Instagram",
+      "username": "srishti_micro",
+      "url": "https://instagram.com/srishti_micro",
+      "name": "Srishti Saxena",
+      "bio": "Microservices Engineer | BITS Hyderabad",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=srishti_micro"
+    },
+    {
+      "platform": "Instagram",
+      "username": "deepika_dl",
+      "url": "https://instagram.com/deepika_dl",
+      "name": "Deepika Sundar",
+      "bio": "Deep Learning Eng | IIT Hyderabad",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=deepika_dl"
+    },
+    {
+      "platform": "Instagram",
+      "username": "mitali_gnn",
+      "url": "https://instagram.com/mitali_gnn",
+      "name": "Mitali Rane",
+      "bio": "Graph Neural Networks | VJTI Mumbai",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=mitali_gnn"
+    },
+    {
+      "platform": "Instagram",
+      "username": "piyush_thakre_official",
+      "url": "https://instagram.com/piyush_thakre_official",
+      "name": "Piyush Thakre",
+      "bio": "AI & ML enthusiast | Engineering student at PRMITR Badnera | Team Lead @ Team Ace",
+      "avatar_url": "/dataset/images/piyush.jpg"
+    },
+    {
+      "platform": "Instagram",
+      "username": "satwik_mhasaye",
+      "url": "https://instagram.com/satwik_mhasaye",
+      "name": "Satwik Mhasaye",
+      "bio": "Backend & Graph Database engineer | NetworkX & FastAPI lover | PRMITR Badnera",
+      "avatar_url": "/dataset/images/satwik.jpg"
+    }
+  ],
+  "twitter_profiles": [
+    {
+      "platform": "X (Twitter)",
+      "username": "jsmith_sec",
+      "url": "https://x.com/jsmith_sec",
+      "name": "John Smith",
+      "bio": "Building & Researching Security Engineer @ Stanford Security Lab",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=jsmith_sec"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "ananya_cv",
+      "url": "https://x.com/ananya_cv",
+      "name": "Ananya Verma",
+      "bio": "Building & Researching Computer Vision Dev @ IIIT Hyderabad",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=ananya_cv"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "rohan_chain",
+      "url": "https://x.com/rohan_chain",
+      "name": "Rohan Gupta",
+      "bio": "Building & Researching Blockchain Developer @ Delhi Technological University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=rohan_chain"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "sid_d_dev",
+      "url": "https://x.com/sid_d_dev",
+      "name": "Siddharth Deshmukh",
+      "bio": "Building & Researching Full Stack Developer @ VNIT Nagpur",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=sid_d_dev"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "priya_patel_ai",
+      "url": "https://x.com/priya_patel_ai",
+      "name": "Priya Patel",
+      "bio": "Building & Researching Data Scientist @ Gujarat Technological University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=priya_patel_ai"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "karan_mehta_pm",
+      "url": "https://x.com/karan_mehta_pm",
+      "name": "Karan Mehta",
+      "bio": "Building & Researching Product Manager @ NMIMS Mumbai",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=karan_mehta_pm"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "vikram_q",
+      "url": "https://x.com/vikram_q",
+      "name": "Vikram Singh",
+      "bio": "Building & Researching Quantum Computing @ IIT Delhi",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=vikram_q"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "devansh_sec",
+      "url": "https://x.com/devansh_sec",
+      "name": "Devansh Saxena",
+      "bio": "Building & Researching Cybersecurity Analyst @ IIT Roorkee",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=devansh_sec"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "ishita_dev",
+      "url": "https://x.com/ishita_dev",
+      "name": "Ishita Bhasin",
+      "bio": "Building & Researching Frontend Engineer @ NSUT Delhi",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=ishita_dev"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "harsh_shinde_tech",
+      "url": "https://x.com/harsh_shinde_tech",
+      "name": "Harshvardhan Shinde",
+      "bio": "Building & Researching Backend Architect @ PICT Pune",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=harsh_shinde_tech"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "ritik_arch",
+      "url": "https://x.com/ritik_arch",
+      "name": "Ritik Chouhan",
+      "bio": "Building & Researching System Architect @ IIT Kharagpur",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=ritik_arch"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "manish_db",
+      "url": "https://x.com/manish_db",
+      "name": "Manish Kumar",
+      "bio": "Building & Researching Database Admin @ NIT Trichy",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=manish_db"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "aman_sre",
+      "url": "https://x.com/aman_sre",
+      "name": "Amanpreet Singh",
+      "bio": "Building & Researching Site Reliability Eng @ Thapar University",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=aman_sre"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "gaurav_fintech",
+      "url": "https://x.com/gaurav_fintech",
+      "name": "Gaurav Bansal",
+      "bio": "Building & Researching Fintech Engineer @ PEC Chandigarh",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=gaurav_fintech"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "rishabh_dist",
+      "url": "https://x.com/rishabh_dist",
+      "name": "Rishabh Tiwari",
+      "bio": "Building & Researching Distributed Systems @ MNNIT Allahabad",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=rishabh_dist"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "varun_comp",
+      "url": "https://x.com/varun_comp",
+      "name": "Varun Kulkarni",
+      "bio": "Building & Researching Compiler Engineer @ WCE Sangli",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=varun_comp"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "radhika_ai",
+      "url": "https://x.com/radhika_ai",
+      "name": "Radhika Mahajan",
+      "bio": "Building & Researching Edge AI Researcher @ VNIT Nagpur",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=radhika_ai"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "kartik_hpc",
+      "url": "https://x.com/kartik_hpc",
+      "name": "Kartik Shenoy",
+      "bio": "Building & Researching High Performance Computing @ IIT Guwahati",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=kartik_hpc"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "tushar_kernel",
+      "url": "https://x.com/tushar_kernel",
+      "name": "Tushar Deshpande",
+      "bio": "Building & Researching Linux Kernel Dev @ COEP Pune",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=tushar_kernel"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "sameer_kazi_dev",
+      "url": "https://x.com/sameer_kazi_dev",
+      "name": "Sameer Kazi",
+      "bio": "Building & Researching DevSecOps Specialist @ VJTI Mumbai",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=sameer_kazi_dev"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "abhinav_vlsi",
+      "url": "https://x.com/abhinav_vlsi",
+      "name": "Abhinav Iyer",
+      "bio": "Building & Researching VLSI Hardware Design @ NITT Trichy",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=abhinav_vlsi"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "chaitanya_search",
+      "url": "https://x.com/chaitanya_search",
+      "name": "Chaitanya Bapat",
+      "bio": "Building & Researching Search Engine Architect @ PICT Pune",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=chaitanya_search"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "utkarsh_algo",
+      "url": "https://x.com/utkarsh_algo",
+      "name": "Utkarsh Tripathi",
+      "bio": "Building & Researching Algorithmic Trader @ IIIT Allahabad",
+      "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=utkarsh_algo"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "piyush_thakre_ai",
+      "url": "https://x.com/piyush_thakre_ai",
+      "name": "Piyush Thakre",
+      "bio": "AI & ML enthusiast | Engineering student at PRMITR Badnera | Team Lead @ Team Ace",
+      "avatar_url": "/dataset/images/piyush.jpg"
+    },
+    {
+      "platform": "X (Twitter)",
+      "username": "v_raut_osint",
+      "url": "https://x.com/v_raut_osint",
+      "name": "Vyankatesh Raut",
+      "bio": "Cybersecurity researcher & OSINT Analyst | PRMITR Badnera",
+      "avatar_url": "/dataset/images/vyankatesh.jpg"
+    }
+  ]
+}

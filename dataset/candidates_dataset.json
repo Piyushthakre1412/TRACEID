@@ -1,0 +1,5005 @@
+[
+  {
+    "person_id": "P_101",
+    "canonical_name": "Piyush Thakre",
+    "primary_image": "/dataset/images/piyush.jpg",
+    "institution": "Prof. Ram Meghe Institute Of Technology and Research, Badnera",
+    "roles": [
+      "Team Lead",
+      "AI Developer",
+      "Full Stack Engineer"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "piyush-thakre",
+        "url": "https://github.com/piyush-thakre",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "piyush-thakre-badnera",
+        "url": "https://linkedin.com/in/piyush-thakre-badnera",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "piyush_thakre_official",
+        "url": "https://instagram.com/piyush_thakre_official",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "piyush_thakre_ai",
+        "url": "https://x.com/piyush_thakre_ai",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "piyush-thakre",
+        "url": "https://github.com/piyush-thakre",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "piyush-thakre-badnera",
+        "url": "https://linkedin.com/in/piyush-thakre-badnera",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "piyush_thakre_official",
+        "url": "https://instagram.com/piyush_thakre_official",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "piyush_thakre_ai",
+        "url": "https://x.com/piyush_thakre_ai",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "AI & ML enthusiast | Engineering student at PRMITR Badnera | Team Lead @ Team Ace",
+      "Building multi-modal digital footprint intelligence & OSINT graph systems."
+    ],
+    "contacts": {
+      "email": "piyush.thakre@prmitr.ac.in",
+      "phone": "+91 98230 11024",
+      "location": "Badnera, Amravati, Maharashtra, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Om Patil",
+        "role": "Frontend Lead @ Team Ace",
+        "platform": "GitHub"
+      },
+      {
+        "name": "Satwik Mhasaye",
+        "role": "Backend Lead @ Team Ace",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Vyankatesh Raut",
+        "role": "Security Researcher",
+        "platform": "X (Twitter)"
+      }
+    ],
+    "projects": [
+      "ACE / InterceptAI",
+      "Digital Identity Resolution System"
+    ],
+    "timeline": [
+      {
+        "year": "2023",
+        "event": "Enrolled at PRMITR Badnera",
+        "category": "education"
+      },
+      {
+        "year": "2024",
+        "event": "Published OSINT Graph Exploration Paper",
+        "category": "research"
+      },
+      {
+        "year": "2026",
+        "event": "Built Project ACE for Neurax Hackathon",
+        "category": "hackathon"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_01",
+        "source_url": "https://github.com/piyush-thakre",
+        "verified_at": "2026-09-19",
+        "proof_type": "Direct Bi-Directional URL Match"
+      },
+      {
+        "node_id": "ORG_01",
+        "source_url": "https://mitra.ac.in",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_102",
+    "canonical_name": "Om Patil",
+    "primary_image": "/dataset/images/om.jpg",
+    "institution": "Prof. Ram Meghe Institute Of Technology and Research, Badnera",
+    "roles": [
+      "Frontend Engineer",
+      "UI/UX Specialist"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "om-patil",
+        "url": "https://github.com/om-patil",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "om-patil-ui",
+        "url": "https://linkedin.com/in/om-patil-ui",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "om-patil",
+        "url": "https://github.com/om-patil",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "om-patil-ui",
+        "url": "https://linkedin.com/in/om-patil-ui",
+        "confidence": 96.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Frontend architect | React & Data Visualization expert | PRMITR Badnera"
+    ],
+    "contacts": {
+      "email": "om.patil@prmitr.ac.in",
+      "phone": "+91 98230 11025",
+      "location": "Badnera, Amravati, Maharashtra, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Piyush Thakre",
+        "role": "Team Lead @ Team Ace",
+        "platform": "GitHub"
+      },
+      {
+        "name": "Satwik Mhasaye",
+        "role": "Backend Lead @ Team Ace",
+        "platform": "LinkedIn"
+      }
+    ],
+    "projects": [
+      "ACE / InterceptAI"
+    ],
+    "timeline": [
+      {
+        "year": "2023",
+        "event": "Enrolled at PRMITR Badnera",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Co-founded Team Ace for Neurax Hackathon",
+        "category": "hackathon"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_02",
+        "source_url": "https://github.com/om-patil",
+        "verified_at": "2026-09-19",
+        "proof_type": "GitHub Profile Confirmation"
+      }
+    ]
+  },
+  {
+    "person_id": "P_103",
+    "canonical_name": "Satwik Mhasaye",
+    "primary_image": "/dataset/images/satwik.jpg",
+    "institution": "Prof. Ram Meghe Institute Of Technology and Research, Badnera",
+    "roles": [
+      "Data Engineer",
+      "Backend Developer"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "satwik-mhasaye",
+        "url": "https://github.com/satwik-mhasaye",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "7wik-mhasaye",
+        "url": "https://linkedin.com/in/7wik-mhasaye",
+        "status": "ALIAS_MATCHED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "satwik_mhasaye",
+        "url": "https://instagram.com/satwik_mhasaye",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "satwik-mhasaye",
+        "url": "https://github.com/satwik-mhasaye",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "ALIAS_MATCHED",
+        "username": "7wik-mhasaye",
+        "url": "https://linkedin.com/in/7wik-mhasaye",
+        "confidence": 92.4,
+        "reason": "Leetspeak Normalized Handle Match ('7wik' -> 'satwik') + Face Embedding Match (0.94)"
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "satwik_mhasaye",
+        "url": "https://instagram.com/satwik_mhasaye",
+        "confidence": 96.5,
+        "reason": "Bio URL Citation + Face Embedding Match (0.95)"
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0,
+        "reason": "No public account in dataset"
+      }
+    },
+    "bios": [
+      "Backend & Graph Database engineer | NetworkX & FastAPI lover | PRMITR Badnera"
+    ],
+    "contacts": {
+      "email": "satwik.mhasaye@prmitr.ac.in",
+      "phone": "+91 98230 11026",
+      "location": "Badnera, Amravati, Maharashtra, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Piyush Thakre",
+        "role": "Team Lead @ Team Ace",
+        "platform": "GitHub"
+      },
+      {
+        "name": "Om Patil",
+        "role": "Frontend Lead @ Team Ace",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "ACE / InterceptAI"
+    ],
+    "timeline": [
+      {
+        "year": "2023",
+        "event": "Enrolled at PRMITR Badnera",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Built NetworkX knowledge graph pipeline for Team Ace",
+        "category": "hackathon"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_03",
+        "source_url": "https://github.com/satwik-mhasaye",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified NetworkX Pipeline Commits"
+      },
+      {
+        "node_id": "H_03_LI",
+        "source_url": "https://linkedin.com/in/7wik-mhasaye",
+        "verified_at": "2026-09-19",
+        "proof_type": "Leetspeak & Multi-Modal Visual Anchor Match"
+      }
+    ]
+  },
+  {
+    "person_id": "P_104",
+    "canonical_name": "Vyankatesh Raut",
+    "primary_image": "/dataset/images/vyankatesh.jpg",
+    "institution": "Prof. Ram Meghe Institute Of Technology and Research, Badnera",
+    "roles": [
+      "Security Researcher",
+      "OSINT Analyst"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "vyankatesh-raut",
+        "url": "https://github.com/vyankatesh-raut",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "v_raut_osint",
+        "url": "https://x.com/v_raut_osint",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "vyankatesh-raut",
+        "url": "https://github.com/vyankatesh-raut",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "v_raut_osint",
+        "url": "https://x.com/v_raut_osint",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Cybersecurity researcher & OSINT Analyst | PRMITR Badnera"
+    ],
+    "contacts": {
+      "email": "vyankatesh.raut@prmitr.ac.in",
+      "phone": "+91 98230 11027",
+      "location": "Badnera, Amravati, Maharashtra, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Piyush Thakre",
+        "role": "Team Lead @ Team Ace",
+        "platform": "GitHub"
+      },
+      {
+        "name": "Satwik Mhasaye",
+        "role": "Backend Lead @ Team Ace",
+        "platform": "LinkedIn"
+      }
+    ],
+    "projects": [
+      "ACE / InterceptAI",
+      "OSINT Recon Toolkit"
+    ],
+    "timeline": [
+      {
+        "year": "2023",
+        "event": "Enrolled at PRMITR Badnera",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Designed OSINT Disambiguation Verification Rules",
+        "category": "security"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_04",
+        "source_url": "https://github.com/vyankatesh-raut",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Security Audit Log"
+      }
+    ]
+  },
+  {
+    "person_id": "P_105",
+    "canonical_name": "Aarav Sharma",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_105",
+    "institution": "IIT Bombay",
+    "roles": [
+      "AI Researcher"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "aarav_sharma",
+        "url": "https://github.com/aarav_sharma",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "aarav-sharma-iitb",
+        "url": "https://linkedin.com/in/aarav-sharma-iitb",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "aarav_ai",
+        "url": "https://instagram.com/aarav_ai",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "aarav_sharma",
+        "url": "https://github.com/aarav_sharma",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "aarav-sharma-iitb",
+        "url": "https://linkedin.com/in/aarav-sharma-iitb",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "aarav_ai",
+        "url": "https://instagram.com/aarav_ai",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "AI Researcher specializing in multi-modal systems at IIT Bombay."
+    ],
+    "contacts": {
+      "email": "aarav.sharma@iitbomba.ac.in",
+      "phone": "+91 98230 41105",
+      "location": "Bombay, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Aarav Research Lead",
+        "role": "Faculty Advisor @ IIT Bombay",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Aarav Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "aarav-sharma-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined IIT Bombay as AI Researcher",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_105_01",
+        "source_url": "https://github.com/aarav_sharma",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_106",
+    "canonical_name": "Aarav Sharma",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_106",
+    "institution": "BITS Pilani",
+    "roles": [
+      "Cloud Architect"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "aarav_sharma_bits",
+        "url": "https://github.com/aarav_sharma_bits",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "aarav-sharma-cloud",
+        "url": "https://linkedin.com/in/aarav-sharma-cloud",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "aarav_sharma_bits",
+        "url": "https://github.com/aarav_sharma_bits",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "aarav-sharma-cloud",
+        "url": "https://linkedin.com/in/aarav-sharma-cloud",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Cloud Architect specializing in multi-modal systems at BITS Pilani."
+    ],
+    "contacts": {
+      "email": "aarav.sharma@bitspila.ac.in",
+      "phone": "+91 98230 41106",
+      "location": "Pilani, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Aarav Research Lead",
+        "role": "Faculty Advisor @ BITS Pilani",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Aarav Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "aarav-sharma-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined BITS Pilani as Cloud Architect",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_106_01",
+        "source_url": "https://github.com/aarav_sharma_bits",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_107",
+    "canonical_name": "John Smith",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_107",
+    "institution": "Stanford Security Lab",
+    "roles": [
+      "Security Engineer"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "jsmith-sec",
+        "url": "https://github.com/jsmith-sec",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "john-smith-stanford",
+        "url": "https://linkedin.com/in/john-smith-stanford",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "jsmith_sec",
+        "url": "https://x.com/jsmith_sec",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "jsmith-sec",
+        "url": "https://github.com/jsmith-sec",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "john-smith-stanford",
+        "url": "https://linkedin.com/in/john-smith-stanford",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "jsmith_sec",
+        "url": "https://x.com/jsmith_sec",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Security Engineer specializing in multi-modal systems at Stanford Security Lab."
+    ],
+    "contacts": {
+      "email": "john.smith@stanford.ac.in",
+      "phone": "+91 98230 41107",
+      "location": "Lab, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. John Research Lead",
+        "role": "Faculty Advisor @ Stanford Security Lab",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "John Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "john-smith-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined Stanford Security Lab as Security Engineer",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_107_01",
+        "source_url": "https://github.com/jsmith-sec",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_108",
+    "canonical_name": "John Smith",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_108",
+    "institution": "MIT Media Lab",
+    "roles": [
+      "UX Designer"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "jsmith-design",
+        "url": "https://github.com/jsmith-design",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "john-smith-ux",
+        "url": "https://linkedin.com/in/john-smith-ux",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "jsmith_creative",
+        "url": "https://instagram.com/jsmith_creative",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "jsmith-design",
+        "url": "https://github.com/jsmith-design",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "john-smith-ux",
+        "url": "https://linkedin.com/in/john-smith-ux",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "jsmith_creative",
+        "url": "https://instagram.com/jsmith_creative",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "UX Designer specializing in multi-modal systems at MIT Media Lab."
+    ],
+    "contacts": {
+      "email": "john.smith@mitmedia.ac.in",
+      "phone": "+91 98230 41108",
+      "location": "Lab, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. John Research Lead",
+        "role": "Faculty Advisor @ MIT Media Lab",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "John Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "john-smith-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined MIT Media Lab as UX Designer",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_108_01",
+        "source_url": "https://github.com/jsmith-design",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_109",
+    "canonical_name": "Ananya Verma",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_109",
+    "institution": "IIIT Hyderabad",
+    "roles": [
+      "Computer Vision Dev"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "4n4ny4_verma",
+        "url": "https://github.com/4n4ny4_verma",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "ananya-verma-cv",
+        "url": "https://linkedin.com/in/ananya-verma-cv",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "ananya_vision",
+        "url": "https://instagram.com/ananya_vision",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "ananya_cv",
+        "url": "https://x.com/ananya_cv",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "4n4ny4_verma",
+        "url": "https://github.com/4n4ny4_verma",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "ananya-verma-cv",
+        "url": "https://linkedin.com/in/ananya-verma-cv",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "ananya_vision",
+        "url": "https://instagram.com/ananya_vision",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "ananya_cv",
+        "url": "https://x.com/ananya_cv",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Computer Vision Dev specializing in multi-modal systems at IIIT Hyderabad."
+    ],
+    "contacts": {
+      "email": "ananya.verma@iiithyde.ac.in",
+      "phone": "+91 98230 41109",
+      "location": "Hyderabad, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Ananya Research Lead",
+        "role": "Faculty Advisor @ IIIT Hyderabad",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Ananya Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "ananya-verma-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined IIIT Hyderabad as Computer Vision Dev",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_109_01",
+        "source_url": "https://github.com/4n4ny4_verma",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_110",
+    "canonical_name": "Rohan Gupta",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_110",
+    "institution": "Delhi Technological University",
+    "roles": [
+      "Blockchain Developer"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "r0h4n_gupt4",
+        "url": "https://github.com/r0h4n_gupt4",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "rohan-gupta-dtu",
+        "url": "https://linkedin.com/in/rohan-gupta-dtu",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "rohan_chain",
+        "url": "https://x.com/rohan_chain",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "r0h4n_gupt4",
+        "url": "https://github.com/r0h4n_gupt4",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "rohan-gupta-dtu",
+        "url": "https://linkedin.com/in/rohan-gupta-dtu",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "rohan_chain",
+        "url": "https://x.com/rohan_chain",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Blockchain Developer specializing in multi-modal systems at Delhi Technological University."
+    ],
+    "contacts": {
+      "email": "rohan.gupta@delhitec.ac.in",
+      "phone": "+91 98230 41110",
+      "location": "University, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Rohan Research Lead",
+        "role": "Faculty Advisor @ Delhi Technological University",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Rohan Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "rohan-gupta-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined Delhi Technological University as Blockchain Developer",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_110_01",
+        "source_url": "https://github.com/r0h4n_gupt4",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_111",
+    "canonical_name": "Neha Kulkarni",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_111",
+    "institution": "COEP Pune",
+    "roles": [
+      "DevOps Engineer"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "neha_kulkarni",
+        "url": "https://github.com/neha_kulkarni",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "neha-kulkarni-coep",
+        "url": "https://linkedin.com/in/neha-kulkarni-coep",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "neha_kulkarni",
+        "url": "https://github.com/neha_kulkarni",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "neha-kulkarni-coep",
+        "url": "https://linkedin.com/in/neha-kulkarni-coep",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "DevOps Engineer specializing in multi-modal systems at COEP Pune."
+    ],
+    "contacts": {
+      "email": "neha.kulkarni@coeppune.ac.in",
+      "phone": "+91 98230 41111",
+      "location": "Pune, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Neha Research Lead",
+        "role": "Faculty Advisor @ COEP Pune",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Neha Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "neha-kulkarni-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined COEP Pune as DevOps Engineer",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_111_01",
+        "source_url": "https://github.com/neha_kulkarni",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_112",
+    "canonical_name": "Siddharth Deshmukh",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_112",
+    "institution": "VNIT Nagpur",
+    "roles": [
+      "Full Stack Developer"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "siddharth_d",
+        "url": "https://github.com/siddharth_d",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "siddharth-deshmukh-vnit",
+        "url": "https://linkedin.com/in/siddharth-deshmukh-vnit",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "sid_deshmukh",
+        "url": "https://instagram.com/sid_deshmukh",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "sid_d_dev",
+        "url": "https://x.com/sid_d_dev",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "siddharth_d",
+        "url": "https://github.com/siddharth_d",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "siddharth-deshmukh-vnit",
+        "url": "https://linkedin.com/in/siddharth-deshmukh-vnit",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "sid_deshmukh",
+        "url": "https://instagram.com/sid_deshmukh",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "sid_d_dev",
+        "url": "https://x.com/sid_d_dev",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Full Stack Developer specializing in multi-modal systems at VNIT Nagpur."
+    ],
+    "contacts": {
+      "email": "siddharth.deshmukh@vnitnagp.ac.in",
+      "phone": "+91 98230 41112",
+      "location": "Nagpur, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Siddharth Research Lead",
+        "role": "Faculty Advisor @ VNIT Nagpur",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Siddharth Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "siddharth-deshmukh-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined VNIT Nagpur as Full Stack Developer",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_112_01",
+        "source_url": "https://github.com/siddharth_d",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_113",
+    "canonical_name": "Aditya Joshi",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_113",
+    "institution": "VJTI Mumbai",
+    "roles": [
+      "Machine Learning Eng"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "4d1ty4_j0sh1",
+        "url": "https://github.com/4d1ty4_j0sh1",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "aditya-joshi-vjti",
+        "url": "https://linkedin.com/in/aditya-joshi-vjti",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "aditya_ml",
+        "url": "https://instagram.com/aditya_ml",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "4d1ty4_j0sh1",
+        "url": "https://github.com/4d1ty4_j0sh1",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "aditya-joshi-vjti",
+        "url": "https://linkedin.com/in/aditya-joshi-vjti",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "aditya_ml",
+        "url": "https://instagram.com/aditya_ml",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Machine Learning Eng specializing in multi-modal systems at VJTI Mumbai."
+    ],
+    "contacts": {
+      "email": "aditya.joshi@vjtimumb.ac.in",
+      "phone": "+91 98230 41113",
+      "location": "Mumbai, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Aditya Research Lead",
+        "role": "Faculty Advisor @ VJTI Mumbai",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Aditya Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "aditya-joshi-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined VJTI Mumbai as Machine Learning Eng",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_113_01",
+        "source_url": "https://github.com/4d1ty4_j0sh1",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_114",
+    "canonical_name": "Priya Patel",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_114",
+    "institution": "Gujarat Technological University",
+    "roles": [
+      "Data Scientist"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "priya_patel_ds",
+        "url": "https://github.com/priya_patel_ds",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "priya-patel-ds",
+        "url": "https://linkedin.com/in/priya-patel-ds",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "priya_data",
+        "url": "https://instagram.com/priya_data",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "priya_patel_ai",
+        "url": "https://x.com/priya_patel_ai",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "priya_patel_ds",
+        "url": "https://github.com/priya_patel_ds",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "priya-patel-ds",
+        "url": "https://linkedin.com/in/priya-patel-ds",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "priya_data",
+        "url": "https://instagram.com/priya_data",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "priya_patel_ai",
+        "url": "https://x.com/priya_patel_ai",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Data Scientist specializing in multi-modal systems at Gujarat Technological University."
+    ],
+    "contacts": {
+      "email": "priya.patel@gujaratt.ac.in",
+      "phone": "+91 98230 41114",
+      "location": "University, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Priya Research Lead",
+        "role": "Faculty Advisor @ Gujarat Technological University",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Priya Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "priya-patel-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined Gujarat Technological University as Data Scientist",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_114_01",
+        "source_url": "https://github.com/priya_patel_ds",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_115",
+    "canonical_name": "Karan Mehta",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_115",
+    "institution": "NMIMS Mumbai",
+    "roles": [
+      "Product Manager"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "karan_mehta",
+        "url": "https://github.com/karan_mehta",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "karan-mehta-pm",
+        "url": "https://linkedin.com/in/karan-mehta-pm",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "karan_m_official",
+        "url": "https://instagram.com/karan_m_official",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "karan_mehta_pm",
+        "url": "https://x.com/karan_mehta_pm",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "karan_mehta",
+        "url": "https://github.com/karan_mehta",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "karan-mehta-pm",
+        "url": "https://linkedin.com/in/karan-mehta-pm",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "karan_m_official",
+        "url": "https://instagram.com/karan_m_official",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "karan_mehta_pm",
+        "url": "https://x.com/karan_mehta_pm",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Product Manager specializing in multi-modal systems at NMIMS Mumbai."
+    ],
+    "contacts": {
+      "email": "karan.mehta@nmimsmum.ac.in",
+      "phone": "+91 98230 41115",
+      "location": "Mumbai, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Karan Research Lead",
+        "role": "Faculty Advisor @ NMIMS Mumbai",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Karan Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "karan-mehta-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined NMIMS Mumbai as Product Manager",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_115_01",
+        "source_url": "https://github.com/karan_mehta",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_116",
+    "canonical_name": "Tanvi Rao",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_116",
+    "institution": "PES University Bangalore",
+    "roles": [
+      "Mobile App Dev"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "tanvi_rao",
+        "url": "https://github.com/tanvi_rao",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "tanvi-rao-flutter",
+        "url": "https://linkedin.com/in/tanvi-rao-flutter",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "tanvi_creates",
+        "url": "https://instagram.com/tanvi_creates",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "tanvi_rao",
+        "url": "https://github.com/tanvi_rao",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "tanvi-rao-flutter",
+        "url": "https://linkedin.com/in/tanvi-rao-flutter",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "tanvi_creates",
+        "url": "https://instagram.com/tanvi_creates",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Mobile App Dev specializing in multi-modal systems at PES University Bangalore."
+    ],
+    "contacts": {
+      "email": "tanvi.rao@pesunive.ac.in",
+      "phone": "+91 98230 41116",
+      "location": "Bangalore, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Tanvi Research Lead",
+        "role": "Faculty Advisor @ PES University Bangalore",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Tanvi Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "tanvi-rao-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined PES University Bangalore as Mobile App Dev",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_116_01",
+        "source_url": "https://github.com/tanvi_rao",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_117",
+    "canonical_name": "Vikram Singh",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_117",
+    "institution": "IIT Delhi",
+    "roles": [
+      "Quantum Computing"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "v1kr4m_s1ngh",
+        "url": "https://github.com/v1kr4m_s1ngh",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "vikram-singh-quantum",
+        "url": "https://linkedin.com/in/vikram-singh-quantum",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "vikram_q",
+        "url": "https://x.com/vikram_q",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "v1kr4m_s1ngh",
+        "url": "https://github.com/v1kr4m_s1ngh",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "vikram-singh-quantum",
+        "url": "https://linkedin.com/in/vikram-singh-quantum",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "vikram_q",
+        "url": "https://x.com/vikram_q",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Quantum Computing specializing in multi-modal systems at IIT Delhi."
+    ],
+    "contacts": {
+      "email": "vikram.singh@iitdelhi.ac.in",
+      "phone": "+91 98230 41117",
+      "location": "Delhi, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Vikram Research Lead",
+        "role": "Faculty Advisor @ IIT Delhi",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Vikram Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "vikram-singh-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined IIT Delhi as Quantum Computing",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_117_01",
+        "source_url": "https://github.com/v1kr4m_s1ngh",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_118",
+    "canonical_name": "Meera Nair",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_118",
+    "institution": "NIT Calicut",
+    "roles": [
+      "NLP Researcher"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "meera_nair_nlp",
+        "url": "https://github.com/meera_nair_nlp",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "meera-nair-nitc",
+        "url": "https://linkedin.com/in/meera-nair-nitc",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "meera_nair",
+        "url": "https://instagram.com/meera_nair",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "meera_nair_nlp",
+        "url": "https://github.com/meera_nair_nlp",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "meera-nair-nitc",
+        "url": "https://linkedin.com/in/meera-nair-nitc",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "meera_nair",
+        "url": "https://instagram.com/meera_nair",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "NLP Researcher specializing in multi-modal systems at NIT Calicut."
+    ],
+    "contacts": {
+      "email": "meera.nair@nitcalic.ac.in",
+      "phone": "+91 98230 41118",
+      "location": "Calicut, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Meera Research Lead",
+        "role": "Faculty Advisor @ NIT Calicut",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Meera Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "meera-nair-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined NIT Calicut as NLP Researcher",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_118_01",
+        "source_url": "https://github.com/meera_nair_nlp",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_119",
+    "canonical_name": "Devansh Saxena",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_119",
+    "institution": "IIT Roorkee",
+    "roles": [
+      "Cybersecurity Analyst"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "d3v4nsh_sec",
+        "url": "https://github.com/d3v4nsh_sec",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "devansh-saxena-iitr",
+        "url": "https://linkedin.com/in/devansh-saxena-iitr",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "devansh_sec",
+        "url": "https://x.com/devansh_sec",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "d3v4nsh_sec",
+        "url": "https://github.com/d3v4nsh_sec",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "devansh-saxena-iitr",
+        "url": "https://linkedin.com/in/devansh-saxena-iitr",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "devansh_sec",
+        "url": "https://x.com/devansh_sec",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Cybersecurity Analyst specializing in multi-modal systems at IIT Roorkee."
+    ],
+    "contacts": {
+      "email": "devansh.saxena@iitroork.ac.in",
+      "phone": "+91 98230 41119",
+      "location": "Roorkee, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Devansh Research Lead",
+        "role": "Faculty Advisor @ IIT Roorkee",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Devansh Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "devansh-saxena-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined IIT Roorkee as Cybersecurity Analyst",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_119_01",
+        "source_url": "https://github.com/d3v4nsh_sec",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_120",
+    "canonical_name": "Ishita Bhasin",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_120",
+    "institution": "NSUT Delhi",
+    "roles": [
+      "Frontend Engineer"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "ishita_bhasin",
+        "url": "https://github.com/ishita_bhasin",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "ishita-bhasin-nsut",
+        "url": "https://linkedin.com/in/ishita-bhasin-nsut",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "ishita_ui",
+        "url": "https://instagram.com/ishita_ui",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "ishita_dev",
+        "url": "https://x.com/ishita_dev",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "ishita_bhasin",
+        "url": "https://github.com/ishita_bhasin",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "ishita-bhasin-nsut",
+        "url": "https://linkedin.com/in/ishita-bhasin-nsut",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "ishita_ui",
+        "url": "https://instagram.com/ishita_ui",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "ishita_dev",
+        "url": "https://x.com/ishita_dev",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Frontend Engineer specializing in multi-modal systems at NSUT Delhi."
+    ],
+    "contacts": {
+      "email": "ishita.bhasin@nsutdelh.ac.in",
+      "phone": "+91 98230 41120",
+      "location": "Delhi, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Ishita Research Lead",
+        "role": "Faculty Advisor @ NSUT Delhi",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Ishita Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "ishita-bhasin-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined NSUT Delhi as Frontend Engineer",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_120_01",
+        "source_url": "https://github.com/ishita_bhasin",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_121",
+    "canonical_name": "Yash Agarwal",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_121",
+    "institution": "Manipal Institute of Tech",
+    "roles": [
+      "Game Developer"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "yash_agarwal_dev",
+        "url": "https://github.com/yash_agarwal_dev",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "yash-agarwal-mit",
+        "url": "https://linkedin.com/in/yash-agarwal-mit",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "yash_games",
+        "url": "https://instagram.com/yash_games",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "yash_agarwal_dev",
+        "url": "https://github.com/yash_agarwal_dev",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "yash-agarwal-mit",
+        "url": "https://linkedin.com/in/yash-agarwal-mit",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "yash_games",
+        "url": "https://instagram.com/yash_games",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Game Developer specializing in multi-modal systems at Manipal Institute of Tech."
+    ],
+    "contacts": {
+      "email": "yash.agarwal@manipalt.ac.in",
+      "phone": "+91 98230 41121",
+      "location": "Tech, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Yash Research Lead",
+        "role": "Faculty Advisor @ Manipal Institute of Tech",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Yash Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "yash-agarwal-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined Manipal Institute of Tech as Game Developer",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_121_01",
+        "source_url": "https://github.com/yash_agarwal_dev",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_122",
+    "canonical_name": "Sneha Reddiyar",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_122",
+    "institution": "Anna University",
+    "roles": [
+      "Embedded Systems"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "sneha_r",
+        "url": "https://github.com/sneha_r",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "sneha-reddiyar-anna",
+        "url": "https://linkedin.com/in/sneha-reddiyar-anna",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "sneha_r",
+        "url": "https://github.com/sneha_r",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "sneha-reddiyar-anna",
+        "url": "https://linkedin.com/in/sneha-reddiyar-anna",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Embedded Systems specializing in multi-modal systems at Anna University."
+    ],
+    "contacts": {
+      "email": "sneha.reddiyar@annauniv.ac.in",
+      "phone": "+91 98230 41122",
+      "location": "University, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Sneha Research Lead",
+        "role": "Faculty Advisor @ Anna University",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Sneha Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "sneha-reddiyar-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined Anna University as Embedded Systems",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_122_01",
+        "source_url": "https://github.com/sneha_r",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_123",
+    "canonical_name": "Harshvardhan Shinde",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_123",
+    "institution": "PICT Pune",
+    "roles": [
+      "Backend Architect"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "h4rsh_sh1nd3",
+        "url": "https://github.com/h4rsh_sh1nd3",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "harsh-shinde-pict",
+        "url": "https://linkedin.com/in/harsh-shinde-pict",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "harsh_backend",
+        "url": "https://instagram.com/harsh_backend",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "harsh_shinde_tech",
+        "url": "https://x.com/harsh_shinde_tech",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "h4rsh_sh1nd3",
+        "url": "https://github.com/h4rsh_sh1nd3",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "harsh-shinde-pict",
+        "url": "https://linkedin.com/in/harsh-shinde-pict",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "harsh_backend",
+        "url": "https://instagram.com/harsh_backend",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "harsh_shinde_tech",
+        "url": "https://x.com/harsh_shinde_tech",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Backend Architect specializing in multi-modal systems at PICT Pune."
+    ],
+    "contacts": {
+      "email": "harshvardhan.shinde@pictpune.ac.in",
+      "phone": "+91 98230 41123",
+      "location": "Pune, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Harshvardhan Research Lead",
+        "role": "Faculty Advisor @ PICT Pune",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Harshvardhan Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "harshvardhan-shinde-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined PICT Pune as Backend Architect",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_123_01",
+        "source_url": "https://github.com/h4rsh_sh1nd3",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_124",
+    "canonical_name": "Kavya Nambiar",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_124",
+    "institution": "IIT Madras",
+    "roles": [
+      "Robotics Engineer"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "kavya_nambiar",
+        "url": "https://github.com/kavya_nambiar",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "kavya-nambiar-iitm",
+        "url": "https://linkedin.com/in/kavya-nambiar-iitm",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "kavya_robotics",
+        "url": "https://instagram.com/kavya_robotics",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "kavya_nambiar",
+        "url": "https://github.com/kavya_nambiar",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "kavya-nambiar-iitm",
+        "url": "https://linkedin.com/in/kavya-nambiar-iitm",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "kavya_robotics",
+        "url": "https://instagram.com/kavya_robotics",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Robotics Engineer specializing in multi-modal systems at IIT Madras."
+    ],
+    "contacts": {
+      "email": "kavya.nambiar@iitmadra.ac.in",
+      "phone": "+91 98230 41124",
+      "location": "Madras, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Kavya Research Lead",
+        "role": "Faculty Advisor @ IIT Madras",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Kavya Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "kavya-nambiar-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined IIT Madras as Robotics Engineer",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_124_01",
+        "source_url": "https://github.com/kavya_nambiar",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_125",
+    "canonical_name": "Ritik Chouhan",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_125",
+    "institution": "IIT Kharagpur",
+    "roles": [
+      "System Architect"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "ritik_chouhan",
+        "url": "https://github.com/ritik_chouhan",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "ritik-chouhan-iitkgp",
+        "url": "https://linkedin.com/in/ritik-chouhan-iitkgp",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "ritik_arch",
+        "url": "https://x.com/ritik_arch",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "ritik_chouhan",
+        "url": "https://github.com/ritik_chouhan",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "ritik-chouhan-iitkgp",
+        "url": "https://linkedin.com/in/ritik-chouhan-iitkgp",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "ritik_arch",
+        "url": "https://x.com/ritik_arch",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "System Architect specializing in multi-modal systems at IIT Kharagpur."
+    ],
+    "contacts": {
+      "email": "ritik.chouhan@iitkhara.ac.in",
+      "phone": "+91 98230 41125",
+      "location": "Kharagpur, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Ritik Research Lead",
+        "role": "Faculty Advisor @ IIT Kharagpur",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Ritik Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "ritik-chouhan-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined IIT Kharagpur as System Architect",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_125_01",
+        "source_url": "https://github.com/ritik_chouhan",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_126",
+    "canonical_name": "Shreya Bose",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_126",
+    "institution": "Jadavpur University",
+    "roles": [
+      "Bioinformatics Dev"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "shreya_bose",
+        "url": "https://github.com/shreya_bose",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "shreya-bose-ju",
+        "url": "https://linkedin.com/in/shreya-bose-ju",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "shreya_bio",
+        "url": "https://instagram.com/shreya_bio",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "shreya_bose",
+        "url": "https://github.com/shreya_bose",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "shreya-bose-ju",
+        "url": "https://linkedin.com/in/shreya-bose-ju",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "shreya_bio",
+        "url": "https://instagram.com/shreya_bio",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Bioinformatics Dev specializing in multi-modal systems at Jadavpur University."
+    ],
+    "contacts": {
+      "email": "shreya.bose@jadavpur.ac.in",
+      "phone": "+91 98230 41126",
+      "location": "University, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Shreya Research Lead",
+        "role": "Faculty Advisor @ Jadavpur University",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Shreya Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "shreya-bose-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined Jadavpur University as Bioinformatics Dev",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_126_01",
+        "source_url": "https://github.com/shreya_bose",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_127",
+    "canonical_name": "Manish Kumar",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_127",
+    "institution": "NIT Trichy",
+    "roles": [
+      "Database Admin"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "m4n1sh_k",
+        "url": "https://github.com/m4n1sh_k",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "manish-kumar-nitt",
+        "url": "https://linkedin.com/in/manish-kumar-nitt",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "manish_db",
+        "url": "https://x.com/manish_db",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "m4n1sh_k",
+        "url": "https://github.com/m4n1sh_k",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "manish-kumar-nitt",
+        "url": "https://linkedin.com/in/manish-kumar-nitt",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "manish_db",
+        "url": "https://x.com/manish_db",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Database Admin specializing in multi-modal systems at NIT Trichy."
+    ],
+    "contacts": {
+      "email": "manish.kumar@nittrich.ac.in",
+      "phone": "+91 98230 41127",
+      "location": "Trichy, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Manish Research Lead",
+        "role": "Faculty Advisor @ NIT Trichy",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Manish Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "manish-kumar-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined NIT Trichy as Database Admin",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_127_01",
+        "source_url": "https://github.com/m4n1sh_k",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_128",
+    "canonical_name": "Kirti Pandharipande",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_128",
+    "institution": "PRMITR Badnera",
+    "roles": [
+      "AI Systems Specialist"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "kirti_p",
+        "url": "https://github.com/kirti_p",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "kirti-pandharipande",
+        "url": "https://linkedin.com/in/kirti-pandharipande",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "kirti_p_ai",
+        "url": "https://instagram.com/kirti_p_ai",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "kirti_p",
+        "url": "https://github.com/kirti_p",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "kirti-pandharipande",
+        "url": "https://linkedin.com/in/kirti-pandharipande",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "kirti_p_ai",
+        "url": "https://instagram.com/kirti_p_ai",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "AI Systems Specialist specializing in multi-modal systems at PRMITR Badnera."
+    ],
+    "contacts": {
+      "email": "kirti.pandharipande@prmitrba.ac.in",
+      "phone": "+91 98230 41128",
+      "location": "Badnera, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Kirti Research Lead",
+        "role": "Faculty Advisor @ PRMITR Badnera",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Kirti Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "kirti-pandharipande-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined PRMITR Badnera as AI Systems Specialist",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_128_01",
+        "source_url": "https://github.com/kirti_p",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_129",
+    "canonical_name": "Amanpreet Singh",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_129",
+    "institution": "Thapar University",
+    "roles": [
+      "Site Reliability Eng"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "aman_singh_sre",
+        "url": "https://github.com/aman_singh_sre",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "amanpreet-singh-thapar",
+        "url": "https://linkedin.com/in/amanpreet-singh-thapar",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "aman_sre",
+        "url": "https://x.com/aman_sre",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "aman_singh_sre",
+        "url": "https://github.com/aman_singh_sre",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "amanpreet-singh-thapar",
+        "url": "https://linkedin.com/in/amanpreet-singh-thapar",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "aman_sre",
+        "url": "https://x.com/aman_sre",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Site Reliability Eng specializing in multi-modal systems at Thapar University."
+    ],
+    "contacts": {
+      "email": "amanpreet.singh@thaparun.ac.in",
+      "phone": "+91 98230 41129",
+      "location": "University, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Amanpreet Research Lead",
+        "role": "Faculty Advisor @ Thapar University",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Amanpreet Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "amanpreet-singh-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined Thapar University as Site Reliability Eng",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_129_01",
+        "source_url": "https://github.com/aman_singh_sre",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_130",
+    "canonical_name": "Divya Sundaram",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_130",
+    "institution": "SSN College of Eng",
+    "roles": [
+      "Cloud Native Dev"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "divya_s",
+        "url": "https://github.com/divya_s",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "divya-sundaram-ssn",
+        "url": "https://linkedin.com/in/divya-sundaram-ssn",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "divya_cloud",
+        "url": "https://instagram.com/divya_cloud",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "divya_s",
+        "url": "https://github.com/divya_s",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "divya-sundaram-ssn",
+        "url": "https://linkedin.com/in/divya-sundaram-ssn",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "divya_cloud",
+        "url": "https://instagram.com/divya_cloud",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Cloud Native Dev specializing in multi-modal systems at SSN College of Eng."
+    ],
+    "contacts": {
+      "email": "divya.sundaram@ssneng.ac.in",
+      "phone": "+91 98230 41130",
+      "location": "Eng, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Divya Research Lead",
+        "role": "Faculty Advisor @ SSN College of Eng",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Divya Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "divya-sundaram-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined SSN College of Eng as Cloud Native Dev",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_130_01",
+        "source_url": "https://github.com/divya_s",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_131",
+    "canonical_name": "Gaurav Bansal",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_131",
+    "institution": "PEC Chandigarh",
+    "roles": [
+      "Fintech Engineer"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "g4ur4v_b4ns4l",
+        "url": "https://github.com/g4ur4v_b4ns4l",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "gaurav-bansal-pec",
+        "url": "https://linkedin.com/in/gaurav-bansal-pec",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "gaurav_fintech",
+        "url": "https://x.com/gaurav_fintech",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "g4ur4v_b4ns4l",
+        "url": "https://github.com/g4ur4v_b4ns4l",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "gaurav-bansal-pec",
+        "url": "https://linkedin.com/in/gaurav-bansal-pec",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "gaurav_fintech",
+        "url": "https://x.com/gaurav_fintech",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Fintech Engineer specializing in multi-modal systems at PEC Chandigarh."
+    ],
+    "contacts": {
+      "email": "gaurav.bansal@pecchand.ac.in",
+      "phone": "+91 98230 41131",
+      "location": "Chandigarh, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Gaurav Research Lead",
+        "role": "Faculty Advisor @ PEC Chandigarh",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Gaurav Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "gaurav-bansal-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined PEC Chandigarh as Fintech Engineer",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_131_01",
+        "source_url": "https://github.com/g4ur4v_b4ns4l",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_132",
+    "canonical_name": "Nikita Chaudhari",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_132",
+    "institution": "PRMITR Badnera",
+    "roles": [
+      "Data Visualization"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "nikita_c",
+        "url": "https://github.com/nikita_c",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "nikita-chaudhari-badnera",
+        "url": "https://linkedin.com/in/nikita-chaudhari-badnera",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "nikita_vis",
+        "url": "https://instagram.com/nikita_vis",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "nikita_c",
+        "url": "https://github.com/nikita_c",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "nikita-chaudhari-badnera",
+        "url": "https://linkedin.com/in/nikita-chaudhari-badnera",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "nikita_vis",
+        "url": "https://instagram.com/nikita_vis",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Data Visualization specializing in multi-modal systems at PRMITR Badnera."
+    ],
+    "contacts": {
+      "email": "nikita.chaudhari@prmitrba.ac.in",
+      "phone": "+91 98230 41132",
+      "location": "Badnera, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Nikita Research Lead",
+        "role": "Faculty Advisor @ PRMITR Badnera",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Nikita Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "nikita-chaudhari-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined PRMITR Badnera as Data Visualization",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_132_01",
+        "source_url": "https://github.com/nikita_c",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_133",
+    "canonical_name": "Rishabh Tiwari",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_133",
+    "institution": "MNNIT Allahabad",
+    "roles": [
+      "Distributed Systems"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "rishabh_t",
+        "url": "https://github.com/rishabh_t",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "rishabh-tiwari-mnnit",
+        "url": "https://linkedin.com/in/rishabh-tiwari-mnnit",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "rishabh_dist",
+        "url": "https://x.com/rishabh_dist",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "rishabh_t",
+        "url": "https://github.com/rishabh_t",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "rishabh-tiwari-mnnit",
+        "url": "https://linkedin.com/in/rishabh-tiwari-mnnit",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "rishabh_dist",
+        "url": "https://x.com/rishabh_dist",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Distributed Systems specializing in multi-modal systems at MNNIT Allahabad."
+    ],
+    "contacts": {
+      "email": "rishabh.tiwari@mnnitall.ac.in",
+      "phone": "+91 98230 41133",
+      "location": "Allahabad, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Rishabh Research Lead",
+        "role": "Faculty Advisor @ MNNIT Allahabad",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Rishabh Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "rishabh-tiwari-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined MNNIT Allahabad as Distributed Systems",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_133_01",
+        "source_url": "https://github.com/rishabh_t",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_134",
+    "canonical_name": "Pooja Hegde",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_134",
+    "institution": "RVCE Bangalore",
+    "roles": [
+      "Autonomous Vehicles"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "pooja_hegde_av",
+        "url": "https://github.com/pooja_hegde_av",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "pooja-hegde-rvce",
+        "url": "https://linkedin.com/in/pooja-hegde-rvce",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "pooja_av",
+        "url": "https://instagram.com/pooja_av",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "pooja_hegde_av",
+        "url": "https://github.com/pooja_hegde_av",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "pooja-hegde-rvce",
+        "url": "https://linkedin.com/in/pooja-hegde-rvce",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "pooja_av",
+        "url": "https://instagram.com/pooja_av",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Autonomous Vehicles specializing in multi-modal systems at RVCE Bangalore."
+    ],
+    "contacts": {
+      "email": "pooja.hegde@rvcebang.ac.in",
+      "phone": "+91 98230 41134",
+      "location": "Bangalore, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Pooja Research Lead",
+        "role": "Faculty Advisor @ RVCE Bangalore",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Pooja Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "pooja-hegde-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined RVCE Bangalore as Autonomous Vehicles",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_134_01",
+        "source_url": "https://github.com/pooja_hegde_av",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_135",
+    "canonical_name": "Varun Kulkarni",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_135",
+    "institution": "WCE Sangli",
+    "roles": [
+      "Compiler Engineer"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "v4run_k",
+        "url": "https://github.com/v4run_k",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "varun-kulkarni-wce",
+        "url": "https://linkedin.com/in/varun-kulkarni-wce",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "varun_comp",
+        "url": "https://x.com/varun_comp",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "v4run_k",
+        "url": "https://github.com/v4run_k",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "varun-kulkarni-wce",
+        "url": "https://linkedin.com/in/varun-kulkarni-wce",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "varun_comp",
+        "url": "https://x.com/varun_comp",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Compiler Engineer specializing in multi-modal systems at WCE Sangli."
+    ],
+    "contacts": {
+      "email": "varun.kulkarni@wcesangl.ac.in",
+      "phone": "+91 98230 41135",
+      "location": "Sangli, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Varun Research Lead",
+        "role": "Faculty Advisor @ WCE Sangli",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Varun Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "varun-kulkarni-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined WCE Sangli as Compiler Engineer",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_135_01",
+        "source_url": "https://github.com/v4run_k",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_136",
+    "canonical_name": "Anushree Pillai",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_136",
+    "institution": "Amrita University",
+    "roles": [
+      "NLP & LLM Specialist"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "anushree_p",
+        "url": "https://github.com/anushree_p",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "anushree-pillai-amrita",
+        "url": "https://linkedin.com/in/anushree-pillai-amrita",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "anushree_llm",
+        "url": "https://instagram.com/anushree_llm",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "anushree_p",
+        "url": "https://github.com/anushree_p",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "anushree-pillai-amrita",
+        "url": "https://linkedin.com/in/anushree-pillai-amrita",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "anushree_llm",
+        "url": "https://instagram.com/anushree_llm",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "NLP & LLM Specialist specializing in multi-modal systems at Amrita University."
+    ],
+    "contacts": {
+      "email": "anushree.pillai@amritaun.ac.in",
+      "phone": "+91 98230 41136",
+      "location": "University, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Anushree Research Lead",
+        "role": "Faculty Advisor @ Amrita University",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Anushree Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "anushree-pillai-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined Amrita University as NLP & LLM Specialist",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_136_01",
+        "source_url": "https://github.com/anushree_p",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_137",
+    "canonical_name": "Pranav Gore",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_137",
+    "institution": "PRMITR Badnera",
+    "roles": [
+      "Mobile Developer"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "pranav_gore",
+        "url": "https://github.com/pranav_gore",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "pranav-gore-badnera",
+        "url": "https://linkedin.com/in/pranav-gore-badnera",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "pranav_apps",
+        "url": "https://instagram.com/pranav_apps",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "pranav_gore",
+        "url": "https://github.com/pranav_gore",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "pranav-gore-badnera",
+        "url": "https://linkedin.com/in/pranav-gore-badnera",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "pranav_apps",
+        "url": "https://instagram.com/pranav_apps",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Mobile Developer specializing in multi-modal systems at PRMITR Badnera."
+    ],
+    "contacts": {
+      "email": "pranav.gore@prmitrba.ac.in",
+      "phone": "+91 98230 41137",
+      "location": "Badnera, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Pranav Research Lead",
+        "role": "Faculty Advisor @ PRMITR Badnera",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Pranav Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "pranav-gore-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined PRMITR Badnera as Mobile Developer",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_137_01",
+        "source_url": "https://github.com/pranav_gore",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_138",
+    "canonical_name": "Radhika Mahajan",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_138",
+    "institution": "VNIT Nagpur",
+    "roles": [
+      "Edge AI Researcher"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "r4dh1k4_m",
+        "url": "https://github.com/r4dh1k4_m",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "radhika-mahajan-vnit",
+        "url": "https://linkedin.com/in/radhika-mahajan-vnit",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "radhika_edge",
+        "url": "https://instagram.com/radhika_edge",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "radhika_ai",
+        "url": "https://x.com/radhika_ai",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "r4dh1k4_m",
+        "url": "https://github.com/r4dh1k4_m",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "radhika-mahajan-vnit",
+        "url": "https://linkedin.com/in/radhika-mahajan-vnit",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "radhika_edge",
+        "url": "https://instagram.com/radhika_edge",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "radhika_ai",
+        "url": "https://x.com/radhika_ai",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Edge AI Researcher specializing in multi-modal systems at VNIT Nagpur."
+    ],
+    "contacts": {
+      "email": "radhika.mahajan@vnitnagp.ac.in",
+      "phone": "+91 98230 41138",
+      "location": "Nagpur, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Radhika Research Lead",
+        "role": "Faculty Advisor @ VNIT Nagpur",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Radhika Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "radhika-mahajan-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined VNIT Nagpur as Edge AI Researcher",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_138_01",
+        "source_url": "https://github.com/r4dh1k4_m",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_139",
+    "canonical_name": "Kartik Shenoy",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_139",
+    "institution": "IIT Guwahati",
+    "roles": [
+      "High Performance Computing"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "kartik_shenoy",
+        "url": "https://github.com/kartik_shenoy",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "kartik-shenoy-iitg",
+        "url": "https://linkedin.com/in/kartik-shenoy-iitg",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "kartik_hpc",
+        "url": "https://x.com/kartik_hpc",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "kartik_shenoy",
+        "url": "https://github.com/kartik_shenoy",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "kartik-shenoy-iitg",
+        "url": "https://linkedin.com/in/kartik-shenoy-iitg",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "kartik_hpc",
+        "url": "https://x.com/kartik_hpc",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "High Performance Computing specializing in multi-modal systems at IIT Guwahati."
+    ],
+    "contacts": {
+      "email": "kartik.shenoy@iitguwah.ac.in",
+      "phone": "+91 98230 41139",
+      "location": "Guwahati, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Kartik Research Lead",
+        "role": "Faculty Advisor @ IIT Guwahati",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Kartik Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "kartik-shenoy-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined IIT Guwahati as High Performance Computing",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_139_01",
+        "source_url": "https://github.com/kartik_shenoy",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_140",
+    "canonical_name": "Bhavna Mishra",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_140",
+    "institution": "BHU Varanasi",
+    "roles": [
+      "Signal Processing"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "bhavna_m",
+        "url": "https://github.com/bhavna_m",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "bhavna-mishra-bhu",
+        "url": "https://linkedin.com/in/bhavna-mishra-bhu",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "bhavna_dsp",
+        "url": "https://instagram.com/bhavna_dsp",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "bhavna_m",
+        "url": "https://github.com/bhavna_m",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "bhavna-mishra-bhu",
+        "url": "https://linkedin.com/in/bhavna-mishra-bhu",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "bhavna_dsp",
+        "url": "https://instagram.com/bhavna_dsp",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Signal Processing specializing in multi-modal systems at BHU Varanasi."
+    ],
+    "contacts": {
+      "email": "bhavna.mishra@bhuvaran.ac.in",
+      "phone": "+91 98230 41140",
+      "location": "Varanasi, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Bhavna Research Lead",
+        "role": "Faculty Advisor @ BHU Varanasi",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Bhavna Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "bhavna-mishra-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined BHU Varanasi as Signal Processing",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_140_01",
+        "source_url": "https://github.com/bhavna_m",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_141",
+    "canonical_name": "Tushar Deshpande",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_141",
+    "institution": "COEP Pune",
+    "roles": [
+      "Linux Kernel Dev"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "tushar_d",
+        "url": "https://github.com/tushar_d",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "tushar-deshpande-coep",
+        "url": "https://linkedin.com/in/tushar-deshpande-coep",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "tushar_kernel",
+        "url": "https://x.com/tushar_kernel",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "tushar_d",
+        "url": "https://github.com/tushar_d",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "tushar-deshpande-coep",
+        "url": "https://linkedin.com/in/tushar-deshpande-coep",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "tushar_kernel",
+        "url": "https://x.com/tushar_kernel",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Linux Kernel Dev specializing in multi-modal systems at COEP Pune."
+    ],
+    "contacts": {
+      "email": "tushar.deshpande@coeppune.ac.in",
+      "phone": "+91 98230 41141",
+      "location": "Pune, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Tushar Research Lead",
+        "role": "Faculty Advisor @ COEP Pune",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Tushar Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "tushar-deshpande-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined COEP Pune as Linux Kernel Dev",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_141_01",
+        "source_url": "https://github.com/tushar_d",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_142",
+    "canonical_name": "Sayali Wankhede",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_142",
+    "institution": "PRMITR Badnera",
+    "roles": [
+      "Full Stack Developer"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "sayali_w",
+        "url": "https://github.com/sayali_w",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "sayali-wankhede-badnera",
+        "url": "https://linkedin.com/in/sayali-wankhede-badnera",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "sayali_web",
+        "url": "https://instagram.com/sayali_web",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "sayali_w",
+        "url": "https://github.com/sayali_w",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "sayali-wankhede-badnera",
+        "url": "https://linkedin.com/in/sayali-wankhede-badnera",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "sayali_web",
+        "url": "https://instagram.com/sayali_web",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Full Stack Developer specializing in multi-modal systems at PRMITR Badnera."
+    ],
+    "contacts": {
+      "email": "sayali.wankhede@prmitrba.ac.in",
+      "phone": "+91 98230 41142",
+      "location": "Badnera, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Sayali Research Lead",
+        "role": "Faculty Advisor @ PRMITR Badnera",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Sayali Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "sayali-wankhede-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined PRMITR Badnera as Full Stack Developer",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_142_01",
+        "source_url": "https://github.com/sayali_w",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_143",
+    "canonical_name": "Sameer Kazi",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_143",
+    "institution": "VJTI Mumbai",
+    "roles": [
+      "DevSecOps Specialist"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "s4m33r_k4z1",
+        "url": "https://github.com/s4m33r_k4z1",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "sameer-kazi-vjti",
+        "url": "https://linkedin.com/in/sameer-kazi-vjti",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "sameer_sec",
+        "url": "https://instagram.com/sameer_sec",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "sameer_kazi_dev",
+        "url": "https://x.com/sameer_kazi_dev",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "s4m33r_k4z1",
+        "url": "https://github.com/s4m33r_k4z1",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "sameer-kazi-vjti",
+        "url": "https://linkedin.com/in/sameer-kazi-vjti",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "sameer_sec",
+        "url": "https://instagram.com/sameer_sec",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "sameer_kazi_dev",
+        "url": "https://x.com/sameer_kazi_dev",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "DevSecOps Specialist specializing in multi-modal systems at VJTI Mumbai."
+    ],
+    "contacts": {
+      "email": "sameer.kazi@vjtimumb.ac.in",
+      "phone": "+91 98230 41143",
+      "location": "Mumbai, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Sameer Research Lead",
+        "role": "Faculty Advisor @ VJTI Mumbai",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Sameer Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "sameer-kazi-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined VJTI Mumbai as DevSecOps Specialist",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_143_01",
+        "source_url": "https://github.com/s4m33r_k4z1",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_144",
+    "canonical_name": "Nisha Agarwal",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_144",
+    "institution": "IGDTUW Delhi",
+    "roles": [
+      "AI Ethics Researcher"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "nisha_agarwal",
+        "url": "https://github.com/nisha_agarwal",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "nisha-agarwal-igdtuw",
+        "url": "https://linkedin.com/in/nisha-agarwal-igdtuw",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "nisha_ethics",
+        "url": "https://instagram.com/nisha_ethics",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "nisha_agarwal",
+        "url": "https://github.com/nisha_agarwal",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "nisha-agarwal-igdtuw",
+        "url": "https://linkedin.com/in/nisha-agarwal-igdtuw",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "nisha_ethics",
+        "url": "https://instagram.com/nisha_ethics",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "AI Ethics Researcher specializing in multi-modal systems at IGDTUW Delhi."
+    ],
+    "contacts": {
+      "email": "nisha.agarwal@igdtuwde.ac.in",
+      "phone": "+91 98230 41144",
+      "location": "Delhi, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Nisha Research Lead",
+        "role": "Faculty Advisor @ IGDTUW Delhi",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Nisha Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "nisha-agarwal-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined IGDTUW Delhi as AI Ethics Researcher",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_144_01",
+        "source_url": "https://github.com/nisha_agarwal",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_145",
+    "canonical_name": "Abhinav Iyer",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_145",
+    "institution": "NITT Trichy",
+    "roles": [
+      "VLSI Hardware Design"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "abhinav_iyer",
+        "url": "https://github.com/abhinav_iyer",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "abhinav-iyer-nitt",
+        "url": "https://linkedin.com/in/abhinav-iyer-nitt",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "abhinav_vlsi",
+        "url": "https://x.com/abhinav_vlsi",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "abhinav_iyer",
+        "url": "https://github.com/abhinav_iyer",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "abhinav-iyer-nitt",
+        "url": "https://linkedin.com/in/abhinav-iyer-nitt",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "abhinav_vlsi",
+        "url": "https://x.com/abhinav_vlsi",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "VLSI Hardware Design specializing in multi-modal systems at NITT Trichy."
+    ],
+    "contacts": {
+      "email": "abhinav.iyer@nitttric.ac.in",
+      "phone": "+91 98230 41145",
+      "location": "Trichy, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Abhinav Research Lead",
+        "role": "Faculty Advisor @ NITT Trichy",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Abhinav Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "abhinav-iyer-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined NITT Trichy as VLSI Hardware Design",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_145_01",
+        "source_url": "https://github.com/abhinav_iyer",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_146",
+    "canonical_name": "Srishti Saxena",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_146",
+    "institution": "BITS Hyderabad",
+    "roles": [
+      "Microservices Engineer"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "srishti_s",
+        "url": "https://github.com/srishti_s",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "srishti-saxena-bits",
+        "url": "https://linkedin.com/in/srishti-saxena-bits",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "srishti_micro",
+        "url": "https://instagram.com/srishti_micro",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "srishti_s",
+        "url": "https://github.com/srishti_s",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "srishti-saxena-bits",
+        "url": "https://linkedin.com/in/srishti-saxena-bits",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "srishti_micro",
+        "url": "https://instagram.com/srishti_micro",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Microservices Engineer specializing in multi-modal systems at BITS Hyderabad."
+    ],
+    "contacts": {
+      "email": "srishti.saxena@bitshyde.ac.in",
+      "phone": "+91 98230 41146",
+      "location": "Hyderabad, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Srishti Research Lead",
+        "role": "Faculty Advisor @ BITS Hyderabad",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Srishti Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "srishti-saxena-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined BITS Hyderabad as Microservices Engineer",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_146_01",
+        "source_url": "https://github.com/srishti_s",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_147",
+    "canonical_name": "Chaitanya Bapat",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_147",
+    "institution": "PICT Pune",
+    "roles": [
+      "Search Engine Architect"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "chaitanya_b",
+        "url": "https://github.com/chaitanya_b",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "chaitanya-bapat-pict",
+        "url": "https://linkedin.com/in/chaitanya-bapat-pict",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "chaitanya_search",
+        "url": "https://x.com/chaitanya_search",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "chaitanya_b",
+        "url": "https://github.com/chaitanya_b",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "chaitanya-bapat-pict",
+        "url": "https://linkedin.com/in/chaitanya-bapat-pict",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "chaitanya_search",
+        "url": "https://x.com/chaitanya_search",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Search Engine Architect specializing in multi-modal systems at PICT Pune."
+    ],
+    "contacts": {
+      "email": "chaitanya.bapat@pictpune.ac.in",
+      "phone": "+91 98230 41147",
+      "location": "Pune, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Chaitanya Research Lead",
+        "role": "Faculty Advisor @ PICT Pune",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Chaitanya Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "chaitanya-bapat-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined PICT Pune as Search Engine Architect",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_147_01",
+        "source_url": "https://github.com/chaitanya_b",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_148",
+    "canonical_name": "Deepika Sundar",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_148",
+    "institution": "IIT Hyderabad",
+    "roles": [
+      "Deep Learning Eng"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "d33p1k4_s",
+        "url": "https://github.com/d33p1k4_s",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "deepika-sundar-iith",
+        "url": "https://linkedin.com/in/deepika-sundar-iith",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "deepika_dl",
+        "url": "https://instagram.com/deepika_dl",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "d33p1k4_s",
+        "url": "https://github.com/d33p1k4_s",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "deepika-sundar-iith",
+        "url": "https://linkedin.com/in/deepika-sundar-iith",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "deepika_dl",
+        "url": "https://instagram.com/deepika_dl",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Deep Learning Eng specializing in multi-modal systems at IIT Hyderabad."
+    ],
+    "contacts": {
+      "email": "deepika.sundar@iithyder.ac.in",
+      "phone": "+91 98230 41148",
+      "location": "Hyderabad, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Deepika Research Lead",
+        "role": "Faculty Advisor @ IIT Hyderabad",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Deepika Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "deepika-sundar-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined IIT Hyderabad as Deep Learning Eng",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_148_01",
+        "source_url": "https://github.com/d33p1k4_s",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_149",
+    "canonical_name": "Utkarsh Tripathi",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_149",
+    "institution": "IIIT Allahabad",
+    "roles": [
+      "Algorithmic Trader"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "utkarsh_t",
+        "url": "https://github.com/utkarsh_t",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "utkarsh-tripathi-iiita",
+        "url": "https://linkedin.com/in/utkarsh-tripathi-iiita",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "X (Twitter)",
+        "username": "utkarsh_algo",
+        "url": "https://x.com/utkarsh_algo",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "utkarsh_t",
+        "url": "https://github.com/utkarsh_t",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "utkarsh-tripathi-iiita",
+        "url": "https://linkedin.com/in/utkarsh-tripathi-iiita",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      },
+      "X_Twitter": {
+        "status": "VERIFIED",
+        "username": "utkarsh_algo",
+        "url": "https://x.com/utkarsh_algo",
+        "confidence": 95.0
+      }
+    },
+    "bios": [
+      "Algorithmic Trader specializing in multi-modal systems at IIIT Allahabad."
+    ],
+    "contacts": {
+      "email": "utkarsh.tripathi@iiitalla.ac.in",
+      "phone": "+91 98230 41149",
+      "location": "Allahabad, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Utkarsh Research Lead",
+        "role": "Faculty Advisor @ IIIT Allahabad",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Utkarsh Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "utkarsh-tripathi-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined IIIT Allahabad as Algorithmic Trader",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_149_01",
+        "source_url": "https://github.com/utkarsh_t",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  },
+  {
+    "person_id": "P_150",
+    "canonical_name": "Mitali Rane",
+    "primary_image": "https://api.dicebear.com/7.x/avataaars/svg?seed=P_150",
+    "institution": "VJTI Mumbai",
+    "roles": [
+      "Graph Neural Networks"
+    ],
+    "handles": [
+      {
+        "platform": "GitHub",
+        "username": "mitali_rane",
+        "url": "https://github.com/mitali_rane",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "LinkedIn",
+        "username": "mitali-rane-vjti",
+        "url": "https://linkedin.com/in/mitali-rane-vjti",
+        "status": "VERIFIED"
+      },
+      {
+        "platform": "Instagram",
+        "username": "mitali_gnn",
+        "url": "https://instagram.com/mitali_gnn",
+        "status": "VERIFIED"
+      }
+    ],
+    "platform_existence_matrix": {
+      "GitHub": {
+        "status": "VERIFIED",
+        "username": "mitali_rane",
+        "url": "https://github.com/mitali_rane",
+        "confidence": 100.0
+      },
+      "LinkedIn": {
+        "status": "VERIFIED",
+        "username": "mitali-rane-vjti",
+        "url": "https://linkedin.com/in/mitali-rane-vjti",
+        "confidence": 98.0
+      },
+      "Instagram": {
+        "status": "VERIFIED",
+        "username": "mitali_gnn",
+        "url": "https://instagram.com/mitali_gnn",
+        "confidence": 94.0
+      },
+      "X_Twitter": {
+        "status": "NOT_FOUND",
+        "username": null,
+        "url": null,
+        "confidence": 0.0
+      }
+    },
+    "bios": [
+      "Graph Neural Networks specializing in multi-modal systems at VJTI Mumbai."
+    ],
+    "contacts": {
+      "email": "mitali.rane@vjtimumb.ac.in",
+      "phone": "+91 98230 41150",
+      "location": "Mumbai, India"
+    },
+    "mutual_contacts": [
+      {
+        "name": "Dr. Mitali Research Lead",
+        "role": "Faculty Advisor @ VJTI Mumbai",
+        "platform": "LinkedIn"
+      },
+      {
+        "name": "Mitali Collaborator",
+        "role": "Co-Author & Contributor",
+        "platform": "GitHub"
+      }
+    ],
+    "projects": [
+      "mitali-rane-research",
+      "Verified Identity Target"
+    ],
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Joined VJTI Mumbai as Graph Neural Networks",
+        "category": "education"
+      },
+      {
+        "year": "2026",
+        "event": "Indexed in Digital Footprint Resolution System",
+        "category": "system"
+      }
+    ],
+    "evidence_trail": [
+      {
+        "node_id": "H_P_150_01",
+        "source_url": "https://github.com/mitali_rane",
+        "verified_at": "2026-09-19",
+        "proof_type": "Verified Institutional Directory Record"
+      }
+    ]
+  }
+]

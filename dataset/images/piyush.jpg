@@ -1,0 +1,2 @@
+# Candidate portrait image placeholder for facial vector extraction demo
+# In production, DeepFace extracts 512-D vectors from photo assets placed in this directory.

@@ -1,0 +1,21 @@
+{
+  "nodes": [
+    { "id": "P_101", "label": "Piyush Thakre", "type": "person" },
+    { "id": "H_01", "label": "@piyush-thakre (GitHub)", "type": "handle" },
+    { "id": "H_02", "label": "@piyush_thakre_ai (X)", "type": "handle" },
+    { "id": "ORG_01", "label": "PRMITR Badnera", "type": "organization" },
+    { "id": "PROJ_01", "label": "ACE / InterceptAI", "type": "project" },
+    { "id": "P_102", "label": "Om Patil", "type": "person" },
+    { "id": "P_103", "label": "Satwik Mhasaye", "type": "person" }
+  ],
+  "edges": [
+    { "source": "P_101", "target": "H_01", "relationship": "OWNED_BY", "confidence": 92.0 },
+    { "source": "P_101", "target": "H_02", "relationship": "OWNED_BY", "confidence": 91.0 },
+    { "source": "P_101", "target": "ORG_01", "relationship": "AFFILIATED_WITH", "confidence": 95.0 },
+    { "source": "P_101", "target": "PROJ_01", "relationship": "CONTRIBUTED_TO", "confidence": 90.0 },
+    { "source": "P_102", "target": "ORG_01", "relationship": "AFFILIATED_WITH", "confidence": 95.0 },
+    { "source": "P_102", "target": "PROJ_01", "relationship": "CONTRIBUTED_TO", "confidence": 88.0 },
+    { "source": "P_103", "target": "ORG_01", "relationship": "AFFILIATED_WITH", "confidence": 95.0 },
+    { "source": "P_103", "target": "PROJ_01", "relationship": "CONTRIBUTED_TO", "confidence": 89.0 }
+  ]
+}
