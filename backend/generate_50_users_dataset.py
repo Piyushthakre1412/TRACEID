@@ -38,9 +38,52 @@ def generate_50_user_dataset():
             ],
             "projects": ["ACE / InterceptAI", "Digital Identity Resolution System"],
             "timeline": [
-                { "year": "2023", "event": "Enrolled at PRMITR Badnera", "category": "education" },
-                { "year": "2024", "event": "Published OSINT Graph Exploration Paper", "category": "research" },
-                { "year": "2026", "event": "Built Project ACE for Neurax Hackathon", "category": "hackathon" }
+                {
+                    "date": "Sep 2026",
+                    "year": "2026",
+                    "event": "Published LinkedIn Article: Multi-Modal OSINT Disambiguation Architecture",
+                    "content": "Excited to present our paper on integrating ArcFace visual embeddings with sentence-transformers for real-time identity resolution across sparse networks.",
+                    "category": "post",
+                    "platform": "LinkedIn",
+                    "engagement": { "likes": 245, "comments": 48, "shares": 19 },
+                    "url": "https://linkedin.com/in/piyush-thakre-badnera"
+                },
+                {
+                    "date": "Aug 2026",
+                    "year": "2026",
+                    "event": "Released TRACEID Core Engine v2.4",
+                    "content": "Pushed release v2.4 containing NetworkX graph engine and ChromaDB vector search pipeline.",
+                    "category": "project",
+                    "platform": "GitHub",
+                    "engagement": { "stars": 312, "forks": 58 },
+                    "url": "https://github.com/piyush-thakre"
+                },
+                {
+                    "date": "Jun 2026",
+                    "year": "2026",
+                    "event": "1st Rank Winner @ Neurax National AI Hackathon",
+                    "content": "Won Grand Champion title for building real-time OSINT identity resolution & disambiguation graph platform.",
+                    "category": "hackathon",
+                    "platform": "Award",
+                    "engagement": { "likes": 420, "comments": 85 }
+                },
+                {
+                    "date": "Jan 2025",
+                    "year": "2025",
+                    "event": "Published Paper: Homoglyph Normalization in Graph Networks",
+                    "content": "Paper accepted in International Journal of Cyber Intelligence & Machine Learning.",
+                    "category": "research",
+                    "platform": "Publication",
+                    "engagement": { "citations": 24 }
+                },
+                {
+                    "date": "Aug 2023",
+                    "year": "2023",
+                    "event": "Enrolled in B.Tech Computer Science & AI @ PRMITR Badnera",
+                    "content": "Began undergraduate degree specializing in Artificial Intelligence, Machine Learning, and Multi-Modal Systems.",
+                    "category": "career",
+                    "platform": "Education"
+                }
             ],
             "evidence_trail": [
                 { "node_id": "H_01", "source_url": "https://github.com/piyush-thakre", "verified_at": "2026-09-19", "proof_type": "Direct Bi-Directional URL Match" },
@@ -77,8 +120,43 @@ def generate_50_user_dataset():
             ],
             "projects": ["ACE / InterceptAI"],
             "timeline": [
-                { "year": "2023", "event": "Enrolled at PRMITR Badnera", "category": "education" },
-                { "year": "2026", "event": "Co-founded Team Ace for Neurax Hackathon", "category": "hackathon" }
+                {
+                    "date": "Sep 2026",
+                    "year": "2026",
+                    "event": "Published Design Post: Dark Mode Glassmorphism Systems for OSINT Dashboard",
+                    "content": "Designing real-time interactive canvas widgets for graph node inspection and candidate evidence trails.",
+                    "category": "post",
+                    "platform": "LinkedIn",
+                    "engagement": { "likes": 195, "comments": 24 },
+                    "url": "https://linkedin.com/in/om-patil-ui"
+                },
+                {
+                    "date": "Jul 2026",
+                    "year": "2026",
+                    "event": "Open Source Component Release: React Knowledge Graph Canvas",
+                    "content": "Released custom HTML5 Canvas interactive graph renderer for large identity node networks.",
+                    "category": "project",
+                    "platform": "GitHub",
+                    "engagement": { "stars": 182, "forks": 29 },
+                    "url": "https://github.com/om-patil"
+                },
+                {
+                    "date": "Jun 2026",
+                    "year": "2026",
+                    "event": "1st Rank Winner @ Neurax National AI Hackathon",
+                    "content": "Co-built TRACEID frontend UI & interactive candidate summary inspector.",
+                    "category": "hackathon",
+                    "platform": "Award",
+                    "engagement": { "likes": 280, "comments": 42 }
+                },
+                {
+                    "date": "Aug 2023",
+                    "year": "2023",
+                    "event": "Enrolled in B.Tech CSE @ PRMITR Badnera",
+                    "content": "Specializing in Computer Science Engineering and Modern Web Interface Systems.",
+                    "category": "career",
+                    "platform": "Education"
+                }
             ],
             "evidence_trail": [
                 { "node_id": "H_02", "source_url": "https://github.com/om-patil", "verified_at": "2026-09-19", "proof_type": "GitHub Profile Confirmation" }
@@ -115,8 +193,43 @@ def generate_50_user_dataset():
             ],
             "projects": ["ACE / InterceptAI"],
             "timeline": [
-                { "year": "2023", "event": "Enrolled at PRMITR Badnera", "category": "education" },
-                { "year": "2026", "event": "Built NetworkX knowledge graph pipeline for Team Ace", "category": "hackathon" }
+                {
+                    "date": "Sep 2026",
+                    "year": "2026",
+                    "event": "Published Post: Optimizing NetworkX Subgraph Queries for Disambiguation",
+                    "content": "Explaining how we structure SQLite candidate metadata with ChromaDB vector indices for sub-second identity lookup.",
+                    "category": "post",
+                    "platform": "LinkedIn",
+                    "engagement": { "likes": 210, "comments": 38 },
+                    "url": "https://linkedin.com/in/7wik-mhasaye"
+                },
+                {
+                    "date": "Aug 2026",
+                    "year": "2026",
+                    "event": "Released OSINT Web Crawler & Leetspeak Handle Normalizer",
+                    "content": "Pushed Python module supporting automatic homoglyph normalization (7->s, 4->a, 3->e) across public profile endpoints.",
+                    "category": "project",
+                    "platform": "GitHub",
+                    "engagement": { "stars": 165, "forks": 22 },
+                    "url": "https://github.com/satwik-mhasaye"
+                },
+                {
+                    "date": "Jun 2026",
+                    "year": "2026",
+                    "event": "1st Rank Winner @ Neurax National AI Hackathon",
+                    "content": "Built high-performance FastAPI & NetworkX graph engine.",
+                    "category": "hackathon",
+                    "platform": "Award",
+                    "engagement": { "likes": 305, "comments": 50 }
+                },
+                {
+                    "date": "Aug 2023",
+                    "year": "2023",
+                    "event": "Enrolled in B.Tech CSE @ PRMITR Badnera",
+                    "content": "Focusing on Data Engineering, Distributed Systems, and Graph Databases.",
+                    "category": "career",
+                    "platform": "Education"
+                }
             ],
             "evidence_trail": [
                 { "node_id": "H_03", "source_url": "https://github.com/satwik-mhasaye", "verified_at": "2026-09-19", "proof_type": "Verified NetworkX Pipeline Commits" },
@@ -153,8 +266,34 @@ def generate_50_user_dataset():
             ],
             "projects": ["ACE / InterceptAI", "OSINT Recon Toolkit"],
             "timeline": [
-                { "year": "2023", "event": "Enrolled at PRMITR Badnera", "category": "education" },
-                { "year": "2026", "event": "Designed OSINT Disambiguation Verification Rules", "category": "security" }
+                {
+                    "date": "Sep 2026",
+                    "year": "2026",
+                    "event": "Published Security Advisory: Cross-Platform Footprint Audit",
+                    "content": "Shared guidelines on identifying synthetic profile impersonation using graph centrality and homoglyph resolution.",
+                    "category": "post",
+                    "platform": "X (Twitter)",
+                    "engagement": { "likes": 160, "comments": 22 },
+                    "url": "https://x.com/v_raut_osint"
+                },
+                {
+                    "date": "Aug 2026",
+                    "year": "2026",
+                    "event": "Released OSINT Audit Automation Tools",
+                    "content": "Pushed automated verification audit rules for evaluating identity confidence thresholds.",
+                    "category": "project",
+                    "platform": "GitHub",
+                    "engagement": { "stars": 140, "forks": 18 },
+                    "url": "https://github.com/vyankatesh-raut"
+                },
+                {
+                    "date": "Aug 2023",
+                    "year": "2023",
+                    "event": "Enrolled in B.Tech CSE @ PRMITR Badnera",
+                    "content": "Specializing in Cybersecurity, Network Defense, and Threat Intelligence.",
+                    "category": "career",
+                    "platform": "Education"
+                }
             ],
             "evidence_trail": [
                 { "node_id": "H_04", "source_url": "https://github.com/vyankatesh-raut", "verified_at": "2026-09-19", "proof_type": "Verified Security Audit Log" }
@@ -310,8 +449,43 @@ def generate_50_user_dataset():
             "mutual_contacts": mutual_contacts_arr,
             "projects": [f"{name.lower().replace(' ', '-')}-research", "Verified Identity Target"],
             "timeline": [
-                { "year": "2024", "event": f"Joined {inst} as {role}", "category": "education" },
-                { "year": "2026", "event": "Indexed in Digital Footprint Resolution System", "category": "system" }
+                {
+                    "date": "Sep 2026",
+                    "year": "2026",
+                    "event": f"Published LinkedIn Article: Scalable Systems in {role}",
+                    "content": f"Exploring advanced architecture patterns for {role} at {inst}. Shared performance benchmarks and code snippets.",
+                    "category": "post",
+                    "platform": "LinkedIn",
+                    "engagement": { "likes": 120 + (i * 3) % 150, "comments": 18 + i % 25 },
+                    "url": handles_arr[1]["url"] if len(handles_arr) > 1 else (handles_arr[0]["url"] if handles_arr else None)
+                },
+                {
+                    "date": "Jul 2026",
+                    "year": "2026",
+                    "event": f"Open Source Release: {name.split()[0].lower()}-{role.lower().replace(' ', '-')}-kit",
+                    "content": f"Published production repository for {role} tools and automated evaluation pipelines.",
+                    "category": "project",
+                    "platform": "GitHub",
+                    "engagement": { "stars": 85 + (i * 7) % 200, "forks": 14 + i % 30 },
+                    "url": handles_arr[0]["url"] if handles_arr else None
+                },
+                {
+                    "date": "May 2026",
+                    "year": "2026",
+                    "event": f"Finalist @ National {role.split()[-1]} Innovation Challenge",
+                    "content": f"Awarded top placement for developing automated AI solutions at {inst}.",
+                    "category": "hackathon",
+                    "platform": "Award",
+                    "engagement": { "likes": 160 + (i * 4) % 180, "comments": 30 }
+                },
+                {
+                    "date": "Aug 2024",
+                    "year": "2024",
+                    "event": f"Joined {inst} as {role}",
+                    "content": f"Appointed as {role} leading technical research and project development.",
+                    "category": "career",
+                    "platform": "Education"
+                }
             ],
             "evidence_trail": [
                 { "node_id": f"H_{p_id}_01", "source_url": handles_arr[0]["url"] if handles_arr else f"https://institution.edu/{p_id}", "verified_at": "2026-09-19", "proof_type": "Verified Institutional Directory Record" }

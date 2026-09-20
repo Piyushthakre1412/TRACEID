@@ -371,42 +371,58 @@ class OSINTCrawler:
         return [v for v in variants if len(v) >= 3][:15]
 
     def search_linkedin(self, query: str, context: str = "") -> List[Dict[str, Any]]:
-        """Queries Google Custom Search API & public profile endpoints exclusively for LinkedIn profiles."""
+        """Queries Google Custom Search API & public profile endpoints exclusively for LinkedIn profiles using exact bio & name queries."""
         results = []
         api_key = settings.GOOGLE_SEARCH_API_KEY
         cx = settings.GOOGLE_SEARCH_ENGINE_ID
-        clean_q = query.strip().replace("@", "")
+        clean_q = query.strip().replace("@", "").replace("|", " ")
+        clean_ctx = context.strip().replace("@", "").replace("|", " ")
 
         # 1. Direct query via Google Custom Search API
         if api_key and cx and not api_key.startswith("AIzaSy_sample"):
             try:
-                full_q = f'site:linkedin.com/in/ "{clean_q}" {context}'.strip()
-                url = f"https://www.googleapis.com/customsearch/v1?key={api_key}&cx={cx}&q={requests.utils.quote(full_q)}"
-                resp = requests.get(url, timeout=5)
-                if resp.status_code == 200:
-                    data = resp.json()
-                    for item in data.get("items", []):
-                        link = item.get("link", "")
-                        if "linkedin.com/in/" in link:
-                            title = item.get("title", "")
-                            snippet = item.get("snippet", "")
-                            pagemap = item.get("pagemap", {})
-                            cse_image = pagemap.get("cse_image", [{}])[0].get("src") if pagemap.get("cse_image") else None
-                            
-                            c_name = title.split("-")[0].split("|")[0].strip()
-                            results.append({
-                                "platform": "LinkedIn",
-                                "username": clean_q,
-                                "canonical_name": c_name or clean_q.title(),
-                                "bio": snippet or f"LinkedIn professional profile for {clean_q}",
-                                "avatar_url": cse_image,
-                                "profile_url": link,
-                                "institution": "LinkedIn Professional Network"
-                            })
+                # Try multiple search query variations (exact bio search & name + context search)
+                search_queries = []
+                full_text = f"{clean_q} {clean_ctx}".strip()
+                if " " in clean_q and len(clean_q.split()) > 2:
+                    search_queries.append(f"site:linkedin.com {clean_q}")
+                else:
+                    search_queries.append(f'site:linkedin.com/in/ "{clean_q}" {clean_ctx}'.strip())
+                    search_queries.append(f"site:linkedin.com {full_text}")
+
+                seen_links = set()
+                for q_str in search_queries:
+                    url = f"https://www.googleapis.com/customsearch/v1?key={api_key}&cx={cx}&q={requests.utils.quote(q_str)}"
+                    resp = requests.get(url, timeout=5)
+                    if resp.status_code == 200:
+                        data = resp.json()
+                        for item in data.get("items", []):
+                            link = item.get("link", "")
+                            if "linkedin.com" in link and link not in seen_links:
+                                seen_links.add(link)
+                                title = item.get("title", "")
+                                snippet = item.get("snippet", "")
+                                pagemap = item.get("pagemap", {})
+                                cse_image = pagemap.get("cse_image", [{}])[0].get("src") if pagemap.get("cse_image") else None
+                                
+                                # Parse person name from title
+                                raw_title = title.split("-")[0].split("|")[0].replace("LinkedIn", "").strip()
+                                username_match = re.search(r'linkedin\.com/in/([a-zA-Z0-9_-]+)', link)
+                                username = username_match.group(1) if username_match else clean_q
+
+                                results.append({
+                                    "platform": "LinkedIn",
+                                    "username": username,
+                                    "canonical_name": raw_title or clean_q.title(),
+                                    "bio": snippet or f"LinkedIn professional profile for {raw_title or clean_q}",
+                                    "avatar_url": cse_image,
+                                    "profile_url": link,
+                                    "institution": "LinkedIn Professional Network"
+                                })
             except Exception as e:
                 print(f"LinkedIn Google Recon Warning: {e}")
 
-        # 2. Fallback probe for LinkedIn profile URLs
+        # 2. Fallback probe for LinkedIn profile URLs if Google Search API has no match
         if not results:
             handles = self.generate_handle_variants(clean_q)
             headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}

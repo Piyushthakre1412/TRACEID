@@ -98,6 +98,9 @@ async def search_identity(
                     "handles": c.get("handles", []),
                     "contacts": c.get("contacts", {}),
                     "mutual_contacts": c.get("mutual_contacts", []),
+                    "projects": c.get("projects", []),
+                    "timeline": c.get("timeline", []),
+                    "evidence_trail": c.get("evidence_trail", []),
                     "platform_existence_matrix": c.get("platform_existence_matrix", {}),
                     "overall_confidence": overall_conf,
                     "confidence_breakdown": {
