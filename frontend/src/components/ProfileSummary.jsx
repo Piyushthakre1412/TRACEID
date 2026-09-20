@@ -150,22 +150,7 @@ export default function ProfileSummary({ identity }) {
         </div>
       )}
 
-      {/* 3. AI Disambiguation Progress Meter */}
-      <div className="bg-slate-950 p-3.5 rounded-xl border border-slate-800 space-y-2 shadow-md">
-        <div className="flex justify-between items-center text-xs">
-          <span className="text-slate-400 font-semibold flex items-center gap-1.5">
-            <ShieldCheck className="w-4 h-4 text-emerald-400" />
-            AI Disambiguation Score
-          </span>
-          <span className="text-sm font-extrabold text-emerald-400">{overall_confidence || 58.5}%</span>
-        </div>
-        <div className="w-full bg-slate-900 h-2.5 rounded-full overflow-hidden border border-slate-800">
-          <div
-            className="bg-gradient-to-r from-indigo-500 via-purple-500 to-emerald-400 h-full rounded-full transition-all duration-700 shadow-sm"
-            style={{ width: `${Math.min(100, Math.max(0, overall_confidence || 58.5))}%` }}
-          />
-        </div>
-      </div>
+
 
       {/* 4. Multi-Modal Score Breakdown */}
       <div className="space-y-2">
